@@ -1,0 +1,28 @@
+{
+  "bookList": [
+    {
+      "id": "1",
+      "bookTitle": "모던 자바스크립트 deep dive"
+    },
+    {
+      "id": "2",
+      "bookTitle": "코어자바스크립트"
+    },
+    {
+      "id": "3",
+      "bookTitle": "자바스크립트를 말하다"
+    },
+    {
+      "id": "4",
+      "bookTitle": "러닝 자바스크립트"
+    },
+    {
+      "id": "5",
+      "bookTitle": "모던 자바스크립트 deep dive"
+    },
+    {
+      "id": "6",
+      "bookTitle": "모던 자바스크립트 deep dive"
+    }
+  ]
+}
