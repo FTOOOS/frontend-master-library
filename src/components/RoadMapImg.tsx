@@ -1,27 +1,26 @@
 import React from "react";
 import styled from "styled-components";
-import typescript from "../assets/typescript.svg";
 
-const ImgWrapper = styled.span`
-  position: fixed;
-  left: 0;
-  top: 0;
-
+const ImgWrapper = styled.span<RoadMapImgTypes>`
+  position: absolute;
+  left: ${(props) => props.left};
+  top: ${(props) => props.top};
   width: 150px;
   height: 100px;
   display: block;
-
-  background: url("${typescript}") no-repeat center center / 100% 100%;
+  background: url(${(props) => props.names}) no-repeat center center / 100% 100%;
 `;
 
 interface RoadMapImgTypes {
-  name: string;
+  left?: any;
+  top?: any;
+  names?: any;
 }
 
-const RoadMapImg = () => {
+const RoadMapImg = (props) => {
   return (
     <>
-      <ImgWrapper />
+      <ImgWrapper left={props.left} top={props.top} names={props.names} />
     </>
   );
 };

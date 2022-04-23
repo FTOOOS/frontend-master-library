@@ -2,52 +2,33 @@ import React from "react";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 import { ReactComponent as RoadMapBaseSvg } from "../assets/roadmap-base.svg";
-import { ReactComponent as HtmlCss } from "../assets/htmlcss.svg";
-import { ReactComponent as Javascript } from "../assets/javascript.svg";
-import { ReactComponent as Git } from "../assets/git.svg";
-import { ReactComponent as ReactImg } from "../assets/react.svg";
-import { ReactComponent as Typescript } from "../assets/typescript.svg";
-import { ReactComponent as Cooperation } from "../assets/cooperation.svg";
-
 import RoadMapImg from "../components/RoadMapImg";
-
-const TestBlock = styled.div`
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-`;
+import htmlcss from "../assets/htmlcss.svg";
+import javascript from "../assets/javascript.svg";
+import git from "../assets/git.svg";
+import cooperation from "../assets/cooperation.svg";
+import react from "../assets/react.svg";
+import typescript from "../assets/typescript.svg";
+import computerscience from "../assets/computerscience.svg";
 
 const Wrapper = styled.div``;
 
 const RoadMapWrapper = styled.div`
-  // display: flex;
-  // justify-content: center;
-  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
 `;
 
 const RoadMapBase = styled(RoadMapBaseSvg)``;
 
-const IconWrapper = styled.div`
-  position: fixed;
-  left: 34;
-  top: 65;
-`;
-
-const HtmlCssWrapper = styled(HtmlCss)``;
-
-const JavscriptWrapper = styled(Javascript)``;
-
-const GitWrapper = styled(Git)``;
-
-const ReactWrapper = styled(ReactImg)``;
-
-const TypescriptWrapper = styled(Typescript)``;
-
-const CooperationWrapper = styled(Cooperation)``;
-
-const Img = styled.img`
+const RoadMapImgContainer = styled.div`
   width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 100px;
 `;
 
 function RoadMap() {
@@ -62,17 +43,16 @@ function RoadMap() {
     <Wrapper>
       <RoadMapWrapper>
         <RoadMapBase />
-
-        <JavscriptWrapper />
-        <GitWrapper />
-        <ReactWrapper />
-        <TypescriptWrapper />
-        <CooperationWrapper />
       </RoadMapWrapper>
-      <IconWrapper>
-        <HtmlCssWrapper />
-      </IconWrapper>
-      <RoadMapImg />
+      <RoadMapImgContainer>
+        <RoadMapImg left="250px" top="130px" names={htmlcss} />
+        <RoadMapImg left="10px" top="60px" names={git} />
+        <RoadMapImg left="10px" top="110px" names={computerscience} />
+        <RoadMapImg left="10px" top="160px" names={javascript} />
+        <RoadMapImg left="10px" top="210px" names={react} />
+        <RoadMapImg left="10px" top="270px" names={typescript} />
+        <RoadMapImg left="10px" top="320px" names={cooperation} />
+      </RoadMapImgContainer>
     </Wrapper>
   );
 }
