@@ -1,34 +1,54 @@
 {
   "data": [
     {
-      "category": "javascript",
+      "group": "javascript",
       "bookList": [
         {
           "id": "1",
           "bookTitle": "모던 자바스크립트 deep dive",
-          "bookSubTitle": "자바스크립트의 기본 개념과 동작 원리자바스크립트의 기본 개념과 동작 원리",
+          "bookSubTitle": "자바스크립트의 기본 개념과 동작",
           "author": "이웅모",
           "publisher": "위키북스",
           "summary": "웹페이지의 단순한 보조 기능을 처리하기 위한 제한적인 용도로 태어난 자바스크립트는 과도하다고 느껴질 만큼 친절한 프로그래밍 언어입니다. 이러한 자바스크립트의 특징은 편리한 경우도 있지만 내부 동작을 이해하기 어렵게 만들기도 합니다. 하지만 자바스크립트는 더 이상 제한적인 용도의 프로그래밍 언어가 아닙니다. 오랜 변화를 거쳐 이제 자바스크립트는 프런트엔드와 백엔드 영역의 프로그래밍 언어로 사용할 수 있는 명실상부한 범용 애플리케이션 개발 언어로 성장했습니다. 따라서 자바스크립트를 학습하는 방식도 이에 걸맞게 변화해야 하며, 이 책은 자바스크립트의 기본 개념과 동작 원리를 깊이 있게 학습하고자 하는 독자를 위해 기획되었습니다.《모던 자바스크립트 Deep Dive》에서는 자바스크립트를 둘러싼 기본 개념을 정확하고 구체적으로 설명하고, 자바스크립트 코드의 동작 원리를 집요하게 파헤칩니다. 따라서 여러분이 작성한 코드가 컴퓨터 내부에서 어떻게 동작할 것인지 예측하고, 명확히 설명할 수 있도록 돕습니다. 또한 최신 자바스크립트 명세를 반영해 안정적이고 효율적인 코드를 작성할 수 있는 기본기를 다지고, 실전에서 쓰이는 모던 자바스크립트 프레임워크나 도구를 완벽하게 이해하고 활용할 수 있게 도와줍니다.",
           "kyobo": "http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&linkClass=&barcode=9791158392239",
           "yes24": "http://www.yes24.com/product/goods/92742567",
           "sharing": "currentUrl",
-          "img": ""
+          "img": "https://img.ridicdn.net/cover/754026976/xxlarge#1"
         },
         {
           "id": "2",
-          "bookTitle": "",
-          "bookSubTitle": "",
+          "bookTitle": "코어 자바스크립트",
+          "bookSubTitle": "핵심 개념과 동작 원리로 이해하는 자바스크립트 프로그래밍",
           "summary": "",
           "kyobo": "",
           "yes24": "",
           "sharing": "currentUrl",
-          "img": ""
+          "img": "http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158391720&orderClick=LAG&Kc=#N"
+        },
+        {
+          "id": "3",
+          "bookTitle": "러닝자바스크립트",
+          "bookSubTitle": "핵심 개념과 동작 원리로 이해하는 자바스크립트 프로그래밍",
+          "summary": "",
+          "kyobo": "",
+          "yes24": "",
+          "sharing": "currentUrl",
+          "img": "http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158391720&orderClick=LAG&Kc=#N"
+        },
+        {
+          "id": "4",
+          "bookTitle": "ㅁㅇㄴㄹㅇㄴㄹㅁㄴㅇㄹㅁㅇㄴㄹ",
+          "bookSubTitle": "핵심 개념과 동작 원리로 이해하는 자바스크립트 프로그래밍",
+          "summary": "",
+          "kyobo": "",
+          "yes24": "",
+          "sharing": "currentUrl",
+          "img": "http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158391720&orderClick=LAG&Kc=#N"
         }
       ]
     },
     {
-      "category": "react",
+      "group": "react",
       "bookList": [
         {
           "id": "1",

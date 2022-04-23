@@ -2,26 +2,32 @@
   "bookList": [
     {
       "id": "1",
+      "group": "javascript",
       "bookTitle": "모던 자바스크립트 deep dive"
     },
     {
       "id": "2",
+      "group": "javascript",
       "bookTitle": "코어자바스크립트"
     },
     {
       "id": "3",
+      "group": "javascript",
       "bookTitle": "자바스크립트를 말하다"
     },
     {
       "id": "4",
+      "group": "javascript",
       "bookTitle": "러닝 자바스크립트"
     },
     {
       "id": "5",
+      "group": "javascript",
       "bookTitle": "모던 자바스크립트 deep dive"
     },
     {
       "id": "6",
+      "group": "javascript",
       "bookTitle": "모던 자바스크립트 deep dive"
     }
   ]
