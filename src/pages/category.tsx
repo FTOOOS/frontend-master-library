@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
 const Section = styled.div`
@@ -30,18 +30,30 @@ const GridItem = styled.div`
   }
 `;
 
+interface BookListProps {
+  id: string;
+  bookTitle: string;
+}
+
 function Category() {
+  const [bookList, setBookList] = useState<BookListProps[]>([]);
+
+  useEffect(() => {
+    fetch("http://localhost:3001/data/bookList.json", {})
+      .then((response) => response.json())
+      .then((data) => setBookList(data.bookList));
+  }, []);
+
+  console.log(bookList);
+
   return (
     <div>
       <Section>
         Category
         <GridContainer>
-          <GridItem>dd</GridItem>
-          <GridItem>dd</GridItem>
-          <GridItem>dd</GridItem>
-          <GridItem>dd</GridItem>
-          <GridItem>dd</GridItem>
-          <GridItem>dd</GridItem>
+          {bookList.map((el) => (
+            <GridItem key={el.id}>{el.bookTitle}</GridItem>
+          ))}
         </GridContainer>
       </Section>
     </div>
