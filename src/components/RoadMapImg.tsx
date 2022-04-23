@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 const ImgWrapper = styled.span<RoadMapImgTypes>`
   margin-left: ${(props) => props.left};
@@ -18,9 +19,17 @@ interface RoadMapImgTypes {
 }
 
 const RoadMapImg = (props) => {
+  const navigate = useNavigate();
+
+  const handleClick = (category: string) => {
+    const path = `/category/${category}`;
+    navigate(path);
+  };
+
   return (
     <>
-      <ImgWrapper left={props.left} top={props.top} names={props.names} />
+  {/*// @ts-ignore*/}
+      <ImgWrapper onClick={() => handleClick(props.category)} left={props.left} top={props.top} names={props.names} />
     </>
   );
 };
