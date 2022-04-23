@@ -3,11 +3,33 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import RoadMap from "./pages/roadMap";
 import Category from "./pages/category";
 import Detail from "./pages/detail";
+import styled from "styled-components";
 import "reset-css";
+import { GlobalStyles } from "./styles";
+
+const Header = styled.header`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 50px;
+  padding: 1rem;
+  color: white;
+  background: teal;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
 
 function App() {
   return (
     <div>
+      <Header>
+        <h1>RoadMap</h1>
+      </Header>
+      <GlobalStyles />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<RoadMap />}></Route>
