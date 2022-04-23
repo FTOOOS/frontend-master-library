@@ -9,41 +9,35 @@
           "bookSubTitle": "자바스크립트의 기본 개념과 동작",
           "author": "이웅모",
           "publisher": "위키북스",
-          "summary": "웹페이지의 단순한 보조 기능을 처리하기 위한 제한적인 용도로 태어난 자바스크립트는 과도하다고 느껴질 만큼 친절한 프로그래밍 언어입니다. 이러한 자바스크립트의 특징은 편리한 경우도 있지만 내부 동작을 이해하기 어렵게 만들기도 합니다. 하지만 자바스크립트는 더 이상 제한적인 용도의 프로그래밍 언어가 아닙니다. 오랜 변화를 거쳐 이제 자바스크립트는 프런트엔드와 백엔드 영역의 프로그래밍 언어로 사용할 수 있는 명실상부한 범용 애플리케이션 개발 언어로 성장했습니다. 따라서 자바스크립트를 학습하는 방식도 이에 걸맞게 변화해야 하며, 이 책은 자바스크립트의 기본 개념과 동작 원리를 깊이 있게 학습하고자 하는 독자를 위해 기획되었습니다.《모던 자바스크립트 Deep Dive》에서는 자바스크립트를 둘러싼 기본 개념을 정확하고 구체적으로 설명하고, 자바스크립트 코드의 동작 원리를 집요하게 파헤칩니다. 따라서 여러분이 작성한 코드가 컴퓨터 내부에서 어떻게 동작할 것인지 예측하고, 명확히 설명할 수 있도록 돕습니다. 또한 최신 자바스크립트 명세를 반영해 안정적이고 효율적인 코드를 작성할 수 있는 기본기를 다지고, 실전에서 쓰이는 모던 자바스크립트 프레임워크나 도구를 완벽하게 이해하고 활용할 수 있게 도와줍니다.",
+          "summary": "웹페이지의 단순한 보조 기능을 처리하기 위한 제한적인 용도로 태어난 자바스크립트는 과도하다고 느껴질 만큼 친절한 프로그래밍 언어입니다.이러한 자바스크립트의 특징은 편리한 경우도 있지만 내부 동작을 이해하기 어렵게 만들기도 합니다. 하지만 자바스크립트는 더 이상 제한적인 용도의 프로그래밍 언어가 아닙니다. 오랜 변화를 거쳐 이제 자바스크립트는 프런트엔드와 백엔드 영역의 프로그래밍 언어로 사용할 수 있는 명실상부한 범용 애플리케이션 개발 언어로 성장했습니다. 따라서 자바스크립트를 학습하는 방식도 이에 걸맞게 변화해야 하며, 이 책은 자바스크립트의 기본 개념과 동작 원리를 깊이 있게 학습하고자 하는 독자를 위해 기획되었습니다.《모던 자바스크립트 Deep Dive》에서는 자바스크립트를 둘러싼 기본 개념을 정확하고 구체적으로 설명하고, 자바스크립트 코드의 동작 원리를 집요하게 파헤칩니다. 따라서 여러분이 작성한 코드가 컴퓨터 내부에서 어떻게 동작할 것인지 예측하고, 명확히 설명할 수 있도록 돕습니다. 또한 최신 자바스크립트 명세를 반영해 안정적이고 효율적인 코드를 작성할 수 있는 기본기를 다지고, 실전에서 쓰이는 모던 자바스크립트 프레임워크나 도구를 완벽하게 이해하고 활용할 수 있게 도와줍니다.",
           "kyobo": "http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&linkClass=&barcode=9791158392239",
           "yes24": "http://www.yes24.com/product/goods/92742567",
           "sharing": "currentUrl",
-          "img": "https://img.ridicdn.net/cover/754026976/xxlarge#1"
+          "img": "https://img.ridicdn.net/cover/1160000024/xxlarge#1"
         },
         {
           "id": "2",
           "bookTitle": "코어 자바스크립트",
           "bookSubTitle": "핵심 개념과 동작 원리로 이해하는 자바스크립트 프로그래밍",
-          "summary": "",
-          "kyobo": "",
+          "author": "정재남",
+          "publisher": "위키북스",
+          "summary": "자바스크립트의 근간을 이루는 핵심 이론들을 정확하게 이해하는 것을 목표로 합니다! 최근 웹 개발 진영은 빠르게 발전하고 있으며, 그 중심에는 자바스크립트가 있다고 해도 결코 과언이 아닙니다. ECMAScript2015 시대인 현재에 이르러서도 ES5에서 통용되던 자바스크립트의 핵심 이론은 여전히 유효하며 매우 중요합니다. 《코어 자바스크립트》는 자바스크립트의 근간을 이루는 핵심 이론들을 정확하게 이해하는 것을 목표로 합니다. 기본 이론들 중 ES6에서도 중요성이 높은 핵심 개념을 위주로 다루며, 테크닉이나 요령보다는 원리를 이해하는 데 목적을 두고 있습니다.",
+          "kyobo": "http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158391720&orderClick=LAG&Kc=#N",
           "yes24": "",
           "sharing": "currentUrl",
-          "img": "http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158391720&orderClick=LAG&Kc=#N"
+          "img": "http://image.kyobobook.co.kr/images/book/xlarge/720/x9791158391720.jpg"
         },
         {
           "id": "3",
           "bookTitle": "러닝자바스크립트",
-          "bookSubTitle": "핵심 개념과 동작 원리로 이해하는 자바스크립트 프로그래밍",
-          "summary": "",
-          "kyobo": "",
+          "bookSubTitle": "ES6로 제대로 입문하는 모던 자바스크립트 웹 개발",
+          "author": "이선 브라운",
+          "publisher": "한빛 미디어",
+          "summary": "ES6로 익히는 고품질 자바스크립트 입문에서 서버 개발까지 이 책은 ES6를 포함하여 최신 자바스크립트 개발을 주도하는 언어 특징과 기술, 관련 도구, 패러다임을 포괄적으로 다룬다. 변수나 제어 흐름, 함수와 같은 단순하고 직관적인 주제뿐만 아니라, 비동기 프로그래밍이나 정규표현식 같은 복잡하고 난해한 개념에 이르기까지 폭넓은 범위를 커버한다. 개발자는 프런트엔드와 백엔드 모두를 아우르는 더 강력하고 반응이 빠른 웹 앱을 만드는 방법을 배울 수 있다. 임베디드부터 웹까지 20년 넘게 프로그래밍해온 저자는 이 실용적인 책에서 ES6에 맞춰 고품질 웹 애플리케이션을 더 쉽고 만족스럽게 개발하는 방법을 제시한다.",
+          "kyobo": "https://digital.kyobobook.co.kr/digital/ebook/ebookDetail.ink?selectedLargeCategory=001&barcode=4808968483387&orderClick=LAG&Kc=",
           "yes24": "",
           "sharing": "currentUrl",
-          "img": "http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158391720&orderClick=LAG&Kc=#N"
-        },
-        {
-          "id": "4",
-          "bookTitle": "ㅁㅇㄴㄹㅇㄴㄹㅁㄴㅇㄹㅁㅇㄴㄹ",
-          "bookSubTitle": "핵심 개념과 동작 원리로 이해하는 자바스크립트 프로그래밍",
-          "summary": "",
-          "kyobo": "",
-          "yes24": "",
-          "sharing": "currentUrl",
-          "img": "http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158391720&orderClick=LAG&Kc=#N"
+          "img": "http://image.kyobobook.co.kr/images/book/xlarge/387/x9788968483387.jpg"
         }
       ]
     },
@@ -53,24 +47,26 @@
         {
           "id": "1",
           "bookTitle": "리액트를 다루는 기술",
-          "bookSubTitle": "자바스크립트의 기본 개념과 동작 원리자바스크립트의 기본 개념과 동작 원리",
-          "author": "이웅모",
-          "publisher": "위키북스",
-          "summary": "웹페이지의 단순한 보조 기능을 처리하기 위한 제한적인 용도로 태어난 자바스크립트는 과도하다고 느껴질 만큼 친절한 프로그래밍 언어입니다. 이러한 자바스크립트의 특징은 편리한 경우도 있지만 내부 동작을 이해하기 어렵게 만들기도 합니다. 하지만 자바스크립트는 더 이상 제한적인 용도의 프로그래밍 언어가 아닙니다. 오랜 변화를 거쳐 이제 자바스크립트는 프런트엔드와 백엔드 영역의 프로그래밍 언어로 사용할 수 있는 명실상부한 범용 애플리케이션 개발 언어로 성장했습니다. 따라서 자바스크립트를 학습하는 방식도 이에 걸맞게 변화해야 하며, 이 책은 자바스크립트의 기본 개념과 동작 원리를 깊이 있게 학습하고자 하는 독자를 위해 기획되었습니다.《모던 자바스크립트 Deep Dive》에서는 자바스크립트를 둘러싼 기본 개념을 정확하고 구체적으로 설명하고, 자바스크립트 코드의 동작 원리를 집요하게 파헤칩니다. 따라서 여러분이 작성한 코드가 컴퓨터 내부에서 어떻게 동작할 것인지 예측하고, 명확히 설명할 수 있도록 돕습니다. 또한 최신 자바스크립트 명세를 반영해 안정적이고 효율적인 코드를 작성할 수 있는 기본기를 다지고, 실전에서 쓰이는 모던 자바스크립트 프레임워크나 도구를 완벽하게 이해하고 활용할 수 있게 도와줍니다.",
-          "kyobo": "http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&linkClass=&barcode=9791158392239",
-          "yes24": "http://www.yes24.com/product/goods/92742567",
+          "bookSubTitle": "입문부터 대규모 애플리케이션까지 한 권으로",
+          "author": "김민준",
+          "publisher": "길벗",
+          "summary": "본문과 소스 전면 업그레이드! 기본기를 꼼꼼하게! 실전에서 효과적으로 활용하는 방법까지 알차게 배우자! 본문과 소스 전면 업그레이드! 기본기를 꼼꼼하게! 실전에서 효과적으로 활용하는 방법까지 알차게 배우자! <리액트를 다루는 기술> 개정판이 나왔습니다. 리액트 16.8 버전에 Hooks라는 기능이 도입되면서 함수형 컴포넌트에서도 상태 관리를 할 수 있게 되었습니다. 이에 맞춰 책에 사용된 주요 예시를 모두 함수형 컴포넌트 형태로 전환했습니다. 기존 내용을 보강 및 개선하고, 초판에 다루지 않았던 새로운 내용도 많이 수록했습니다. 리액트의 빅 팬이자 현업 프로그래머로서 리액트를 꾸준히 활용해 온 저자의 명쾌한 설명과 노하우가 더욱 알차게 담긴 개정판입니다. 또한, 리액트를 공부할 때 알아야 할 자바스크립트 기초 및 ES6 문법을 다룬 링크(벨로퍼트와 함께하는 모던 자바스크립트)와 책에서 사용한 리액트 라이브러리와 관련 도구의 버전이 업그레이드되면 필요한 변경 사항을 공지하는 링크(저자 깃허브)도 제공합니다.",
+          "kyobo": "https://digital.kyobobook.co.kr/digital/ebook/ebookDetail.ink?selectedLargeCategory=001&barcode=4801160508797&orderClick=LEH&Kc=#",
+          "yes24": "",
           "sharing": "currentUrl",
-          "img": ""
+          "img": "http://image.kyobobook.co.kr/images/book/xlarge/797/x4801160508797.jpg"
         },
         {
           "id": "2",
-          "bookTitle": "",
-          "bookSubTitle": "",
-          "summary": "",
-          "kyobo": "",
+          "bookTitle": "리액트 교과서",
+          "bookSubTitle": "기본기에 충실한 리액트 입문서!",
+          "author": "아자트 마르단",
+          "publisher": "길벗",
+          "summary": "기본기에 충실한 리액트 입문서! 이 책은 React.js를 사용해 웹/모바일을 개발하고자 하는 웹/모바일 개발자, 소프트웨어 엔지니어를 대상으로 한다. 1부는 JSX, 상태 객체, 라이프사이클 이벤트, DOM 이벤트, jQuery UI 이벤트, 폼, 리액트 컴포넌트 같은 리액트의 핵심 개념을 다루고, 2부는 Webpack, React Router, Redux, GraphQL, Jest, Node.js, Express 같은 리액트 개발 생태계를 살펴본다. 그리고 각 부 마지막에 리액트를 경험해보고, 앞서 학습한 개념을 확고히 다질 수 있는 큰 프로젝트를 세 개씩 준비했다.",
+          "kyobo": "https://digital.kyobobook.co.kr/digital/ebook/ebookDetail.ink?selectedLargeCategory=001&barcode=4801160504829&orderClick=LEH&Kc=",
           "yes24": "",
           "sharing": "currentUrl",
-          "img": ""
+          "img": "http://image.kyobobook.co.kr/images/book/xlarge/829/x4801160504829.jpg"
         }
       ]
     }
