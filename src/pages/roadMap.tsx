@@ -64,7 +64,7 @@ const DownArrow = styled.span`
   width: 30px;
   height: 30px;
   cursor: pointer;
-  z-index: 1000;
+  z-index: 98;
 `;
 
 function RoadMap() {
