@@ -1,30 +1,29 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Section = styled.div`
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   width: 80%;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
-  background-color: salmon;
 `;
 
 const GridContainer = styled.div`
   display: grid;
   width: 100%;
+  margin-top: 82px;
   justify-content: center;
-  background-color: white;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
 `;
 
 const GridItem = styled.div`
-  background-color: black;
-  height: 30rem;
+  background-color: #54a0ff;
+  height: 20rem;
   &:hover {
     background-color: white;
   }
@@ -32,6 +31,7 @@ const GridItem = styled.div`
 
 interface BookListProps {
   id: string;
+  group: string;
   bookTitle: string;
 }
 
@@ -39,20 +39,24 @@ function Category() {
   const [bookList, setBookList] = useState<BookListProps[]>([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/data/bookList.json", {})
+    fetch("http://localhost:3000/data/bookList.json", {})
       .then((response) => response.json())
-      .then((data) => setBookList(data.bookList));
+      .then((data) => {
+        // console.log(data);
+        setBookList(data.bookList);
+      });
   }, []);
 
-  console.log(bookList);
+  // console.log(bookList);
 
   return (
     <div>
       <Section>
-        Category
         <GridContainer>
           {bookList.map((el) => (
-            <GridItem key={el.id}>{el.bookTitle}</GridItem>
+            <Link key={el.id} to={`/detail/${el.group}/${el.id}`}>
+              <GridItem key={el.id}>{el.bookTitle}</GridItem>
+            </Link>
           ))}
         </GridContainer>
       </Section>
