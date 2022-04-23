@@ -33,8 +33,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<RoadMap />}></Route>
-          <Route path="/category" element={<Category />}></Route>
-          <Route path="/category/javascript" element={<Detail />}></Route>
+          <Route path="/category/:group" element={<Category />}></Route>
+          <Route path="/detail/:group/:id" element={<Detail />} />
         </Routes>
       </BrowserRouter>
     </div>

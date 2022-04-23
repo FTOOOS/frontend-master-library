@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import styled from "styled-components";
 
 const Section = styled.div`
@@ -29,32 +29,33 @@ const GridItem = styled.div`
   }
 `;
 
-interface BookListProps {
-  id: string;
-  group: string;
-  bookTitle: string;
-}
-
-function Category() {
-  const [bookList, setBookList] = useState<BookListProps[]>([]);
+function Category({ match }: any) {
+  const { group } = useParams();
+  const [bookList, setBookList] = useState([]);
+  const [chk, setChk] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3000/data/bookList.json", {})
+    fetch("http://localhost:3000/data/bookMock.json", {})
       .then((response) => response.json())
       .then((data) => {
-        // console.log(data);
-        setBookList(data.bookList);
+        const entire = data.data;
+        const length = Object.keys(entire).length;
+
+        for (let i = 0; i < length; i++) {
+          if (group === entire[i]["group"]) {
+            setBookList(entire[i].bookList);
+            setChk(entire[i].group);
+          }
+        }
       });
   }, []);
-
-  // console.log(bookList);
 
   return (
     <div>
       <Section>
         <GridContainer>
           {bookList.map((el) => (
-            <Link key={el.id} to={`/detail/${el.group}/${el.id}`}>
+            <Link key={el.id} to={`/detail/${chk}/${el.id}`}>
               <GridItem key={el.id}>{el.bookTitle}</GridItem>
             </Link>
           ))}
