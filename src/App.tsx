@@ -12,15 +12,15 @@ const Header = styled.header`
   top: 0;
   left: 0;
   right: 0;
-
   height: 50px;
   padding: 1rem;
   color: white;
-  background: teal;
+  background: #666;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 99;
 `;
 
 function App() {
