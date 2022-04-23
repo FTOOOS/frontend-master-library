@@ -1,8 +1,8 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import RoadMap from './pages/roadMap';
-import Category from './pages/category';
-import Detail from './pages/detail';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import RoadMap from "./pages/roadMap";
+import Category from "./pages/category";
+import Detail from "./pages/detail";
 
 function App() {
   return (
