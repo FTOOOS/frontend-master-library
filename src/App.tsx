@@ -27,7 +27,7 @@ function App() {
   return (
     <div>
       <Header>
-        <h1>RoadMap</h1>
+        <h1>프론트엔드 장인의 서재</h1>
       </Header>
       <GlobalStyles />
       <BrowserRouter>
