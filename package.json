@@ -10,6 +10,7 @@
     "@types/node": "^16.11.27",
     "@types/react": "^18.0.6",
     "@types/react-dom": "^18.0.2",
+    "book-cover-3d": "1.1.2",
     "react": "^18.0.0",
     "react-animation-on-scroll": "^5.1.0",
     "react-dom": "^18.0.0",
