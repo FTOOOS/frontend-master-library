@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import RoadMap from "./pages/roadMap";
 import Category from "./pages/category";
 import Detail from "./pages/detail";
+import "reset-css";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<RoadMap />}></Route>
           <Route path="/category" element={<Category />}></Route>
-          <Route path="/detail" element={<Detail />}></Route>
+          <Route path="/category/javascript" element={<Detail />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
