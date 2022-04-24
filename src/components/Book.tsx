@@ -50,6 +50,7 @@ const BookImageWrap = styled.div`
 const BookImage = styled.div`
   /* width: 100%; */
   min-width: 200px;
+  max-width: 200px;
   will-change: transform;
   transform-origin: 0 100%;
   transition: transform 0.3s ease-out;
