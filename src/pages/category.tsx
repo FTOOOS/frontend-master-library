@@ -5,7 +5,6 @@ import Book from "../components/Book";
 
 const Section = styled.div`
   display: flex;
-  flex-direction: column;
   justify-content: center;
   width: 80%;
   height: 100%;
@@ -14,15 +13,19 @@ const Section = styled.div`
 
 const GridContainer = styled.div`
   display: grid;
+  margin-top: 100px;
   width: 100%;
-  margin-top: 82px;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
   grid-template-columns: 1fr 1fr 1fr;
+  @media screen and (max-width: 900px) and (min-width: 570px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media screen and (max-width: 570px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const GridItem = styled.div`
+  margin-top: 70px;
   width: 100%;
 `;
 
