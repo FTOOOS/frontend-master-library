@@ -21,7 +21,6 @@ const ImageContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  /* top: 60px; */
 `;
 
 const BookImageWrap = styled.div`
@@ -48,7 +47,6 @@ const BookImageWrap = styled.div`
 `;
 
 const BookImage = styled.div`
-  /* width: 100%; */
   min-width: 200px;
   max-width: 200px;
   will-change: transform;

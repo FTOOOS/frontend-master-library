@@ -10,7 +10,6 @@ const Section = styled.div`
   width: 80%;
   height: 100vh;
   margin: 100px auto 0;
-  /* background-color: #b2bec3; */
   @media screen and (max-width: 764px) {
     width: 100%;
   }
@@ -19,43 +18,6 @@ const Section = styled.div`
 const FlexWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-`;
-
-const CoverWrapper = styled.div`
-  width: 100%;
-  img { 
-    position: absolute;
-    top: 0; 
-    left: 0; 
-    max-width: 100%; 
-    height: auto; 
-    transform: translate(-50%,-50%); 
-  }
-`
-
-const Thumbnail  = styled.div`
-  position: relative; 
-  padding-top: 100%; 
-  overflow: hidden;
-`
-
-const Center = styled.div`
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0;
-  transform: translate(50%,50%);
-`
-
-const Cover = styled.img`
-  width: 20rem;
-  height: 30rem;
-  margin-right: 1.5rem;
-  @media screen and (max-width: 764px) {
-    width: 10rem;
-    height: 20rem;
-  }
 `;
 
 const BookInfo = styled.div`
@@ -92,7 +54,7 @@ const VerticalLine = styled.em`
   vertical-align: top;
   display: inline-block;
   zoom: 1;
-`
+`;
 
 const Author = styled.span``;
 
@@ -113,13 +75,13 @@ const PurchaseLink = styled.a`
   text-align: center;
   text-decoration: none;
   color: black;
-  background: #ECECEC;
+  background: #ececec;
   border-radius: 10px;
   cursor: pointer;
-  
- & + & {
-   margin-left: 20px;
- }
+
+  & + & {
+    margin-left: 20px;
+  }
 `;
 
 const SharingBtn = styled.a`
@@ -127,7 +89,7 @@ const SharingBtn = styled.a`
   width: 56px;
   position: relative;
   display: block;
-  
+
   &:after {
     background: url(${kakaoIcon}) no-repeat 0 0;
     position: absolute;
@@ -135,7 +97,7 @@ const SharingBtn = styled.a`
     height: 56px;
     transform: translateX(-50%);
     content: "";
-    left: 50%;  
+    left: 50%;
   }
 `;
 
@@ -189,18 +151,18 @@ function Detail({ match }: any) {
     <>
       <Section>
         <FlexWrapper>
-          <DetailBook src={selectedBook.img}/>
+          <DetailBook src={selectedBook.img} />
           <BookInfo>
             <Title>{selectedBook.bookTitle}</Title>
             <SubTitle>{selectedBook.bookSubTitle}</SubTitle>
-              <Author>{selectedBook.author}</Author>
-              <VerticalLine>|</VerticalLine>
-              <Publisher>{selectedBook.publisher}</Publisher>
-            <HorizontalLine/>
+            <Author>{selectedBook.author}</Author>
+            <VerticalLine>|</VerticalLine>
+            <Publisher>{selectedBook.publisher}</Publisher>
+            <HorizontalLine />
             <table>
               <colgroup>
-                <col width="110"/>
-                <col width="*"/>
+                <col width="110" />
+                <col width="*" />
               </colgroup>
               <tbody>
                 <tr>
@@ -236,8 +198,7 @@ function Detail({ match }: any) {
                           window.location.href
                         );
                       }}
-                    >
-                    </SharingBtn>
+                    ></SharingBtn>
                   </td>
                 </tr>
               </tbody>

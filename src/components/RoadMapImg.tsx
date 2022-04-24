@@ -32,7 +32,6 @@ const RoadMapImg = (props) => {
 
   return (
     <>
-      {/*// @ts-ignore*/}
       <ImgWrapper
         onClick={() => handleClick(props.category)}
         left={props.left}
