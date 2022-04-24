@@ -1,3 +1,9 @@
+declare global {
+  interface Window {
+    Kakao: any;
+  }
+}
+
 const { Kakao } = window;
 
 export default function initialize() {
