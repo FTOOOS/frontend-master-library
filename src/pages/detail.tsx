@@ -22,15 +22,15 @@ const FlexWrapper = styled.div`
   .links {
     justify-content: space-between;
   }
-  @media screen and (max-width: 764px) {
+  @media screen and (max-width: 1024px) {
     flex-direction: column;
   }
 `;
 
 const BookInfo = styled.div`
-  width: 100%;
+  width: 90%;
   color: #f0efef;
-  padding: 30px;
+  margin: 0 auto;
 `;
 
 const Title = styled.h1`
@@ -74,7 +74,7 @@ const Summary = styled.p`
   color: #f0efef;
   @media screen and (max-width: 764px) {
     width: 90%;
-    margin: 0 auto;
+    margin: 2rem auto;
   }
 `;
 
@@ -89,7 +89,7 @@ const PurchaseLink = styled.a`
   display: block;
   width: 100px;
   height: 50px;
-  margin-left: 20px;
+  margin-left: 1rem;
   line-height: 50px;
   text-align: center;
   text-decoration: none;
@@ -99,7 +99,7 @@ const PurchaseLink = styled.a`
   cursor: pointer;
 
   & + & {
-    margin-left: 20px;
+    margin-left: 1rem;
   }
 `;
 
@@ -108,7 +108,7 @@ const SharingBtn = styled.a`
   width: 56px;
   position: relative;
   display: block;
-  margin-left: 20px;
+  margin-left: 1rem;
 
   &:after {
     background: url(${kakaoIcon}) no-repeat 0 0;
