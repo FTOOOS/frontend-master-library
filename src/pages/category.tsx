@@ -29,6 +29,18 @@ const GridItem = styled.div`
   width: 100%;
 `;
 
+const CategoryContainer = styled.div`
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 4rem 0;
+  font-weight: 1000;
+  font-size: 4rem;
+  line-height: 2.2rem;
+`;
+
 function Category({ match }: any) {
   const { group } = useParams();
   const [bookList, setBookList] = useState([]);
@@ -52,6 +64,7 @@ function Category({ match }: any) {
 
   return (
     <div>
+      <CategoryContainer>{group}</CategoryContainer>
       <Section>
         <GridContainer>
           {bookList.map((el) => (
