@@ -14,8 +14,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/107010853",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/367/x9788970505367.jpg",
-          "suggestName": [],
-          "suggenstContent": [
+          "suggestion": [
             "정말 쉽게 알려준다는 문구가 마음에 들었는데 실제로 읽어보니 이 말이 딱!",
             "HTML+CSS+자바스크립트가 적혀 있지만 Visual Code설치 부터 인스타 클론 코딩, 깃 허브를 통한 웹 호스팅까지 프론트 웹 개발의 전체를 전반적으로 다 경험하게 해주네요."
           ]
@@ -31,7 +30,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/108553101",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/274/x9791158393274.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "코딩 초보, 코린이에게 반드시 읽어볼 것을 추천",
             "코딩이 필요한 시점에서 갈증을 해결해주는 멋진 책"
           ]
@@ -47,7 +46,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/8007403",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/677/x9788960773677.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "동영상 강의를 들으면서 혼자 공부할 수 있어요",
             "웹 공부를 막 시작한 입문자라면 이 책보다 더 좋은 지침서는 없을거라 생각합니다."
           ]
@@ -68,7 +67,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/85382769",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/032/x9791162242032.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "버전관리 시스템은 협업의 기본이기 때문에, 꼭 읽어보시길 추천 드립니다.",
             "정말 쉽게 써서 너무 좋네요"
           ]
@@ -84,7 +83,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/84803146",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/222/x9791163031222.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "깃을 처음 만지는 사람들한텐 그림과 설명 하나하나 잘 돼있어서 이해하기 쉽고 좋은 책",
             "깃허브 초보, 입문자에게 적절한 책"
           ]
@@ -100,7 +99,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/103525595",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/014/x9791191905014.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "내용이 알차고 유익합니다. 도움이 많이 됩니다",
             "실제 현업에서는 어떤 과정으로 이루어질까?라는 고민의 해답을 준 책"
           ]
@@ -116,7 +115,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/89522012",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/885/x9791165210885.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "git관련된 기본서로 팀내 신입 연구원에게 추천하는 책",
             "깃에 대한 친절한 설명과 협업에 대한 인사이트를 주는 유용한 책"
           ]
@@ -132,7 +131,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/24841824",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/789/x9788966261789.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "저자의 위상답게 Git에 대한 가장 전문적인 책",
             " 필수로 알아야 하는 기초개념과 기본사용법을 담고있고 예제도 사진과 함께 잘 갖춰져 있어 당장사더라도 무조건 손해는아닌 책"
           ]
@@ -148,7 +147,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/58214924",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/155/x9791185885155.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "다루는 분량이 적긴 하지만 몇 시간 들여서 천천히 읽고 나면 커맨드 라인만으로도 git을 사용할 수 있게 해 주는 친절한 책",
             "짧고 임팩트 있게 깃 시스템 이해하기"
           ]
@@ -169,7 +168,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/91165789",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/033/x9791196918033.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "IT 시대 필수 교양서",
             "실무에 쓰일 법한 전문 용어들만 쏙쏙 골라서 누구나 이해할 수 있게 쓴 책입니다. IT 입문서로 강추합니다!"
           ]
@@ -185,7 +184,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/18249021",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/766/x9788998139766.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "OOP란 무엇인가? 객체지향이라는 것 은 알겠는데.. 객체지향은 또 무엇을 의미할까?? class를 만하는 것 인가?? OOP의 근본이 알고싶다면 이책을 적극 추천한다.",
             "이 책은 객체지향적 코딩을 하는 사람이라면 반드시 읽어봐야 생각운신의 폭을 넓힐 수 있는 좋은 책"
           ]
@@ -201,7 +200,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/74219491",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/409/x9791158391409.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "객체지향에 대해 쉽게 설명되어 있는 책을 읽게 되어 행복 했습니다. 몇 안 되는 다시 읽어 보고 싶은 책입니다.",
             "철학이 담긴 책이라고 해야할지, 컴퓨터공학 필수교재가 되었으면 좋겠습니다."
           ]
@@ -217,7 +216,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/77283734",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/472/x9788966262472.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "로버트 마틴이 쓴 책이니 내용이야 보장합니다.",
             "너무 정석이니까 코딩하면 한권쯤은 있어야죠"
           ]
@@ -233,7 +232,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/1469763",
           "sharing": "currentUrl",
           "img": "http://image.yes24.com/momo/TopCate45/MidCate01/4409325.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "최근 몇년간 읽은 IT 서적 중 가장 재미있는 책",
             "프로그램을 짜본사람이라면 아니 반드시 프로그래머가 아니라도 IT분야에 종사하는 사람이라면, 누구나 한번쯤 느껴보았음직한 생각들에 대해서 재미있게 엮었다."
           ]
@@ -249,7 +248,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/13776831",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/131/x9791156641131.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "정말 자세하게 설명되어 있습니다.",
             "역시 알고리즘은 이걸로 배워야합니다"
           ]
@@ -270,7 +269,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/44132601",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/528/x9788968488528.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "수 년을 공부해도 헷갈리는 자바스크립트 엔진과 스코프를 의인화하여 표현한 위트있는 책!",
             "마치 말을 건네는 듯한 대화 형태로 자바스크립트의 개념과 통찰을 알려주는 책입니다. 한 챕터씩 헷갈리는 부분들만 그 때 그때 읽는 것도 추천합니다."
           ]
@@ -286,7 +285,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/78586788",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/720/x9791158391720.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "자바스크립트의 핵심만 담은 책",
             "Deep Dive 로 넘어가기전에 거쳐야할 입문서!!"
           ]
@@ -302,7 +301,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/92742567",
           "sharing": "currentUrl",
           "img": "https://img.ridicdn.net/cover/1160000024/xxlarge#1",
-          "suggenstContent": [
+          "suggestion": [
             "JS의 1부터 100까지 담은 백과사전",
             "자바스크립트에 대해 심도있는 이해를 원한다면 모던 자바스크립트로 Deep하게 Dive 해보세요."
           ]
@@ -318,7 +317,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/108450351",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/462/x9788966263462.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "자바스크립트의 정석 아닌가 싶을 정도로 아주 자세한 설명과 방대함에 감탄 스러울 뿐입니다."
           ]
         },
@@ -333,7 +332,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/11781589",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/652/x9788968480652.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "문장이 어렵지 않아서 잘 읽혀요. JS 개념잡는데에 많은 도움이 됐습니다",
             "잘정리되어있고 초심자가 이해하기에도 적당한것같습니다."
           ]
@@ -349,7 +348,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/89649360",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/742/x9791162242742.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "쉽게 찾기 어려운 JS 기반 리팩터링 서적. 협업하기 위해 반드시 읽어봐야 할 책",
             "예제 코드가 JavaScript로 되어있어요"
           ]
@@ -370,7 +369,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/89328106",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/482/x9791163031482.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "발빠르게 타입스크립트를 내놓은 점이 맘에 들어요",
             "타입스크립트 관련 책이 몇개 없는데 그중 좋은 것 같아요"
           ]
@@ -386,7 +385,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/102124327",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/134/x9788966263134.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "주의해야 할 사항들이 잘 정리되어 있어요.",
             "좋은책입니다 스터디를 위해 구입했는데 양질의 책이에요!"
           ]
@@ -402,7 +401,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/90265564",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/601/x9788966262601.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "코드에서 버그를 효과적으로 제거 할 수 있는 등 유용한 기술들이 많습니다",
             "회사 개발서로 샀어요"
           ]
@@ -423,7 +422,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/102277805",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/494/x9791162244494.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "전체적인 내용을 빠르게 쭉 보기 좋습니다.",
             "리액트 트렌드에 맞게 2판이 나와서 잘 보고 있어요. FE 개발자들에게 적극 추천합니다."
           ]
@@ -439,7 +438,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/78233628",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/797/x4801160508797.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "리액트를 처음 시작한다면 꼭 거쳐가야 하는 벨로퍼트!",
             "리액트 입문부터 Redux 상태관리까지 한번에!! 리액트를 시작한다면 가장 먼저 읽어봐야할 책!!"
           ]
@@ -455,7 +454,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/103190780",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/748/x9791163032748.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "React 환경에서 Firebase로 간단한 회원관리와 CRUD를 맛볼 수 있어요",
             "강의도 있고 책도 잘정리되어있습니다. 배우고 익히는데 좋아요"
           ]
@@ -471,7 +470,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/60763065",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/828/x9791160504828.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "리액트를 면밀히 살펴볼 수 있습니다.",
             "정말 교과서입니다. 설명이 쉽게 잘되어있고 한 챔터 끝날때 문제도 있어 다시 생각하게 합니다."
           ]
@@ -487,7 +486,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/90873270",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/670/x9788966262670.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "함수형으로 작성된 책을 찾고 있었는데 딱이에요",
             "리액트 프로젝트에 투입되게 되어 구매해서 읽고 있습니다."
           ]
@@ -503,7 +502,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/102280451",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/715/x9791165920715.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "정독하게되는 책",
             "프론트에서는 잘 다루지 않는 테스트 주도 개발에 대한 내용을 다루고 있어 매우 유용하다"
           ]
@@ -524,7 +523,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/67350256",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/335/x9788966262335.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "개발자로서 내가 제대로 성장하고 있는지 의심이 들 때 방향성을 제시해준 고마운 책",
             "다른 사람들과 함께 학습하고, 성장하기 위한 사고방식의 전환을 준 책이에요. 이 책은 읽고 나서 책의 내용에 대해 같이 대화를 많이 해보면 좋을 것 같아요.",
             "애자일(agile) = 학습과 협력으로 불확실성에 대응 = 함께 자라기"
@@ -541,7 +540,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/107077663",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/363/x9788966263363.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "굉장히 유용한 책",
             "스킬적인 측면보다는 구체화되지 않은 개념을 설명하는 책"
           ]
@@ -557,7 +556,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/12246033",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/024/x9788966261024.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "TDD의 아버지 켄트 벡이 알려주는 TDD의 모든 것",
             "좋은 코드는 테스트도 완벽해야 한다고 생각이 들고, 이책이 매우 도움이 될거라 생각합니다."
           ]
@@ -573,7 +572,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/11681152",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/959/x9788966260959.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "개발자로서 갖춰야 할 마음가짐과 협업을 위한 필수 자질을 깨달을 수 있는 책. 소프트웨어 공학계의 바이블!",
             "깔끔한 코드는 코딩의 기본!"
           ]
@@ -589,7 +588,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/11681152",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/489/x9791186659489.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "개발자의 기본에 대한 내용이지만 지키기 어려운 것을 담은 책",
             "선배 개발자의 인생 스토리를 볼 수 있는 것 같아 좋았습니다. 그 경험과 노하우로 많은 것을 배울 수 있었습니다."
           ]
@@ -605,7 +604,7 @@
           "yes24": "http://www.yes24.com/Product/Goods/3048401",
           "sharing": "currentUrl",
           "img": "http://image.kyobobook.co.kr/images/book/xlarge/946/x9788979145946.jpg",
-          "suggenstContent": [
+          "suggestion": [
             "프로그래머 멘토를 구했습니다",
             "저자를 믿고 그냥 사는 책"
           ]
