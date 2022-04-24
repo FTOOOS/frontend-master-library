@@ -114,14 +114,14 @@ function RoadMap() {
         <AnimationOnScroll animateIn="animate__fadeInRightBig">
           <RoadMapImg left="10px" top="30px" names={react} category="react" />
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+        {/* <AnimationOnScroll animateIn="animate__fadeInLeftBig">
           <RoadMapImg
             left="300px"
             top="-30px"
             names={cooperation}
             category="cooperation"
           />
-        </AnimationOnScroll>
+        </AnimationOnScroll> */}
       </RoadMapImgContainer>
     </>
   );
