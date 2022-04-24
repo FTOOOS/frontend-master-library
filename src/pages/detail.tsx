@@ -2,12 +2,13 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
 import { shareKakao } from "../api/shareKakao";
+import Utterances from "../api/utterances";
 
 const Section = styled.div`
   width: 80%;
   height: 100vh;
   margin: 100px auto 0;
-  background-color: #b2bec3;
+  /* background-color: #b2bec3; */
   @media screen and (max-width: 764px) {
     width: 100%;
   }
@@ -154,6 +155,7 @@ function Detail({ match }: any) {
             </SharingBtn>
           </BookInfo>
         </FlexWrapper>
+        <Utterances repo="FTOOOS/comment" theme="photon-dark" />
       </Section>
     </div>
   );
