@@ -32,7 +32,7 @@ function Category({ match }: any) {
   const [chk, setChk] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3000/data/bookMock.json", {})
+    fetch("https://frontend-master-library.vercel.app/data/bookMock.json", {})
       .then((response) => response.json())
       .then((data) => {
         const entire = data.data;
