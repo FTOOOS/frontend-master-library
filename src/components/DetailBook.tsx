@@ -6,13 +6,11 @@ const BookCoverContainer = styled.div`
   position: relative;
   display: block;
   margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
-  width: 20rem;
+  width: 100%;
   height: 22rem;
 `;
 
-export const DetailBook = ({src}) => {
+export const DetailBook = ({ src }) => {
   return (
     <BookCoverContainer>
       <BookCover>

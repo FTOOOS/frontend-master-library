@@ -3,7 +3,6 @@ import styled from "styled-components";
 import github from "../assets/github.svg";
 
 const FooterContainer = styled.div`
-  position: fixed;
   display: flex;
   justify-content: flex-end;
   align-items: center;
