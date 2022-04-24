@@ -10,6 +10,10 @@ const ImgWrapper = styled.span<RoadMapImgTypes>`
   display: block;
   background: url(${(props) => props.names}) no-repeat center center / 100% 100%;
   cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.05) translateY(-10px);
+  }
 `;
 
 interface RoadMapImgTypes {
@@ -28,8 +32,13 @@ const RoadMapImg = (props) => {
 
   return (
     <>
-  {/*// @ts-ignore*/}
-      <ImgWrapper onClick={() => handleClick(props.category)} left={props.left} top={props.top} names={props.names} />
+      {/*// @ts-ignore*/}
+      <ImgWrapper
+        onClick={() => handleClick(props.category)}
+        left={props.left}
+        top={props.top}
+        names={props.names}
+      />
     </>
   );
 };

@@ -5,20 +5,21 @@ import github from "../assets/github.svg";
 const FooterContainer = styled.div`
   position: relative;
   margin-top: 150px;
-  height: 80px;
+  height: 60px;
   background: #666;
 `;
 
 const FooterText = styled.div`
   position: absolute;
-  bottom: 30px;
+  bottom: 22px;
   right: 85px;
   color: white;
+  font-size: 12px;
 `;
 
 const GitHubWrapper = styled.span`
   position: absolute;
-  bottom: 22px;
+  bottom: 12px;
   right: 25px;
   width: 50px;
   height: 40px;
