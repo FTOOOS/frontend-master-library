@@ -78,46 +78,46 @@ function RoadMap() {
       <RoadMapImgContainer>
         <AnimationOnScroll animateIn="animate__fadeInLeftBig">
           <RoadMapImg
-            left="-200px"
+            left="-240px"
             top="calc(100vh + 80px)"
             names={htmlcss}
             category="htmlcss"
           />
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeInRightBig">
-          <RoadMapImg left="10px" top="40px" names={git} category="git" />
+          <RoadMapImg left="-80px" top="30px" names={git} category="git" />
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeInLeftBig">
           <RoadMapImg
-            left="200px"
-            top="50px"
+            left="150px"
+            top="30px"
             names={computerscience}
             category="computerscience"
           />
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeInRightBig">
           <RoadMapImg
-            left="-130px"
-            top="10px"
+            left="0px"
+            top="30px"
             names={javascript}
             category="javascript"
           />
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeInLeftBig">
           <RoadMapImg
-            left="-40px"
-            top="40px"
+            left="-160px"
+            top="30px"
             names={typescript}
             category="typescript"
           />
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeInRightBig">
-          <RoadMapImg left="-130px" top="30px" names={react} category="react" />
+          <RoadMapImg left="10px" top="30px" names={react} category="react" />
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeInLeftBig">
           <RoadMapImg
-            left="240px"
-            top="-20px"
+            left="300px"
+            top="-30px"
             names={cooperation}
             category="cooperation"
           />
