@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
+import { DetailBook } from "../components/DetailBook";
 import { shareKakao } from "../api/shareKakao";
 import Utterances from "../api/utterances";
 
@@ -117,7 +118,7 @@ function Detail({ match }: any) {
     <div>
       <Section>
         <FlexWrapper>
-          <Cover src={selectedBook.img} />
+          <DetailBook></DetailBook>
           <BookInfo>
             <Title>{selectedBook.bookTitle}</Title>
             <SubTitle>{selectedBook.bookSubTitle}</SubTitle>
