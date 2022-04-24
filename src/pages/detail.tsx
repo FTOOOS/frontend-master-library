@@ -8,7 +8,7 @@ import Utterances from "../api/utterances";
 
 const Section = styled.div`
   width: 80%;
-  height: 100vh;
+  height: 100%;
   margin: 100px auto 0;
   @media screen and (max-width: 764px) {
     width: 100%;
@@ -165,7 +165,7 @@ function Detail({ match }: any) {
           }
         }
       });
-  }, [param]);
+  }, [param, group, id]);
 
   return (
     <>

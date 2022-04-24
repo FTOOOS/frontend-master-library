@@ -60,7 +60,7 @@ function Category({ match }: any) {
           }
         }
       });
-  }, []);
+  }, [group]);
 
   return (
     <div>
