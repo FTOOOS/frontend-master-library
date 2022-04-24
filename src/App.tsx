@@ -8,6 +8,7 @@ import "reset-css";
 import { GlobalStyles } from "./styles";
 import initialize from "./api/initialize";
 import logo from "./assets/logo.png";
+import Footer from "./components/Footer";
 
 const Header = styled.header`
   position: fixed;
@@ -41,6 +42,7 @@ function App() {
         <Route path="/category/:group" element={<Category/>}/>
         <Route path="/detail/:group/:id" element={<Detail />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

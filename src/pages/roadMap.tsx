@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { ReactComponent as RoadMapBaseSvg } from "../assets/roadmap-base.svg";
 import RoadMapImg from "../components/RoadMapImg";
-import Footer from "../components/Footer";
 import htmlcss from "../assets/htmlcss.svg";
 import javascript from "../assets/javascript.svg";
 import git from "../assets/git.svg";
@@ -132,7 +131,6 @@ function RoadMap() {
           />
         </AnimationOnScroll>
       </RoadMapImgContainer>
-      <Footer />
     </>
   );
 }

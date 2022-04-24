@@ -9,14 +9,14 @@ const BookCoverContainer = styled.div`
   margin-left: 30px;
   margin-right: 30px;
   width: 20rem;
-  height: 30rem;
+  height: 22rem;
 `;
 
-export const DetailBook = () => {
+export const DetailBook = ({src}) => {
   return (
     <BookCoverContainer>
       <BookCover>
-        <img src="http://image.kyobobook.co.kr/images/book/xlarge/239/x9791158392239.jpg" />
+        <img src={src} alt="Book" />
       </BookCover>
     </BookCoverContainer>
   );
