@@ -5,7 +5,7 @@ export const shareKakao = (title, imageUrl, sharedUrl) => {
     objectType: "feed",
     content: {
       title: title,
-      description: "프론트엔드 장인의 서재에서 책을 확인해보세요.",
+      description: "프론트엔드 장인의 서재에서 책을 확인해보세요!",
       imageUrl: imageUrl,
       link: {
         webUrl: sharedUrl,
