@@ -8,6 +8,9 @@ const Section = styled.div`
   height: 100vh;
   margin: 100px auto 0;
   background-color: #b2bec3;
+  @media screen and (max-width: 764px) {
+    width: 100%;
+  }
 `;
 
 const FlexWrapper = styled.div`
@@ -18,7 +21,11 @@ const FlexWrapper = styled.div`
 const Cover = styled.img`
   width: 20rem;
   height: 30rem;
-  margin-right: 30px;
+  margin-right: 1.5rem;
+  @media screen and (max-width: 764px) {
+    width: 10rem;
+    height: 20rem;
+  }
 `;
 
 const BookInfo = styled.div`
