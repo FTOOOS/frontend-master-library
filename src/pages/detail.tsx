@@ -1,13 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
+import { DetailBook } from "../components/DetailBook";
 import { shareKakao } from "../api/shareKakao";
 import kakaoIcon from "../assets/ico_sns_kakao.svg";
+import Utterances from "../api/utterances";
 
 const Section = styled.div`
   width: 80%;
   height: 100vh;
   margin: 100px auto 0;
+  /* background-color: #b2bec3; */
+  @media screen and (max-width: 764px) {
+    width: 100%;
+  }
 `;
 
 const FlexWrapper = styled.div`
@@ -44,6 +50,12 @@ const Center = styled.div`
 
 const Cover = styled.img`
   width: 20rem;
+  height: 30rem;
+  margin-right: 1.5rem;
+  @media screen and (max-width: 764px) {
+    width: 10rem;
+    height: 20rem;
+  }
 `;
 
 const BookInfo = styled.div`
@@ -174,16 +186,10 @@ function Detail({ match }: any) {
   }, [param]);
 
   return (
-    <div>
+    <>
       <Section>
         <FlexWrapper>
-          <CoverWrapper>
-            <Thumbnail>
-              <Center>
-                <Cover className="centered" src={selectedBook.img} />
-              </Center>
-            </Thumbnail>
-          </CoverWrapper>
+          <DetailBook src={selectedBook.img}/>
           <BookInfo>
             <Title>{selectedBook.bookTitle}</Title>
             <SubTitle>{selectedBook.bookSubTitle}</SubTitle>
@@ -239,8 +245,9 @@ function Detail({ match }: any) {
           </BookInfo>
         </FlexWrapper>
         <Summary>{selectedBook.summary}</Summary>
+        <Utterances repo="FTOOOS/comment" theme="photon-dark" />
       </Section>
-    </div>
+    </>
   );
 }
 
