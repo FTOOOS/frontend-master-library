@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, Navigate } from "react-router-dom";
 import RoadMap from "./pages/roadMap";
 import Category from "./pages/category";
 import Detail from "./pages/detail";
@@ -47,6 +47,7 @@ function App() {
         <Route path="/" element={<RoadMap />} />
         <Route path="/category/:group" element={<Category />} />
         <Route path="/detail/:group/:id" element={<Detail />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
     </BrowserRouter>
