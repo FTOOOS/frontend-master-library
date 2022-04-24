@@ -4,15 +4,15 @@
     </a>
 </p>
 
+
+
+### [Demo ⚙️](https://frontend-master-library.vercel.app)
+
 > 프론트엔드 개발자로 성장하고자 하는 사람들을 위한 "프론트엔드 장인의 서재"
-> 
-> 2022 테오의 구글 스프린트 7기 @FTOOS
 
-## Demo
-
-https://frontend-master-library.vercel.app
 
 ## Documentation
+
 끊임없이 쏟아지는 FE 개발 트렌드와 포스팅들의 홍수 속에서 정신이 혼미해질 때가 있지 않나요? 🤔
 
 휘발성이 강하거나 신뢰도가 떨어지는 정보들에 휩쓸리다 보면 어느 한가지에 딥 다이브 하지못해 학습의 방향성을 잃고 이론적인 지식에 빈틈이 생길 수 있습니다. 
@@ -44,7 +44,7 @@ https://frontend-master-library.vercel.app
 
 
 ## Contributors :heart_eyes:
-
+> 2022 테오의 구글 스프린트 7기 @FTOOS
 <table>
   <tr>
     <td align="center"><a href="https://github.com/kk3june"><img src="https://avatars.githubusercontent.com/u/34735492?v=4" width="80px;" alt=""/><br /><sub><b>kk3june</b></sub></a></td>
