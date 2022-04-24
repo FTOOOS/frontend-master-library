@@ -244,7 +244,7 @@
           "kyobo": "http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788966263462&orderClick=LAG&Kc=",
           "yes24": "",
           "sharing": "currentUrl",
-          "img": "http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788966263462&orderClick=LAG&Kc="
+          "img": "http://image.kyobobook.co.kr/images/book/xlarge/462/x9788966263462.jpg"
         },
         {
           "id": "5",
@@ -374,7 +374,7 @@
           "kyobo": "http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788966262670&orderClick=LAG&Kc=",
           "yes24": "",
           "sharing": "currentUrl",
-          "img": "http://image.kyobobook.co.kr/images/book/xlarge/829/x4801160504829.jpg"
+          "img": "http://image.kyobobook.co.kr/images/book/xlarge/670/x9788966262670.jpg"
         },
         {
           "id": "6",
@@ -435,11 +435,11 @@
           "bookSubTitle": "애자일 소프트웨어 장인 정신",
           "author": "로버트 C. 마틴",
           "publisher": "인사이트",
-          "summary": "애자일 소프트웨어의 혁명적인 패러다임을 제시하는 책이다. 저자 로버트 마틴은 오브젝트 멘토(Object Mentor)의 동료들과 힘을 모아 ‘개발하며’ 클린 코드를 만드는 최상의 애자일 기법을 정제하여『Clean Code 클린 코드』에 담았다. 아주 많은 코드를 읽고 그 코드의 무엇이 옳은지, 그른지 생각하며 전문가로서 자신이 지니는 가치를 돌아보기 위해 꾸준히 노력한다면, 이 책을 통해 여러분의 프로그래밍 실력은 한층 더 높아질 것이다.",
+          "summary": "『Clean Code(클린 코드)』은 오브젝트 멘토(Object Mentor)의 동료들과 힘을 모아 ‘개발하며’ 클린 코드를 만드는 최상의 애자일 기법을 소개하고 있다. 소프트웨어 장인 정신의 가치를 심어 주며 프로그래밍 실력을 높여줄 것이다. 여러분이 노력만 한다면. 어떤 노력이 필요하냐고? 코드를 읽어야 한다. 아주 많은 코드를. 그리고 코드를 읽으면서 그 코드의 무엇이 옳은지, 그른지 생각도 해야 한다. 좀 더 중요하게는 전문가로서 자신이 지니는 가치와 장인으로서 자기 작품에 대한 헌신을 돌아보게 된다.",
           "kyobo": "http://www.yes24.com/Product/Goods/11681152",
           "yes24": "",
           "sharing": "currentUrl",
-          "img": "『Clean Code(클린 코드)』은 오브젝트 멘토(Object Mentor)의 동료들과 힘을 모아 ‘개발하며’ 클린 코드를 만드는 최상의 애자일 기법을 소개하고 있다. 소프트웨어 장인 정신의 가치를 심어 주며 프로그래밍 실력을 높여줄 것이다. 여러분이 노력만 한다면. 어떤 노력이 필요하냐고? 코드를 읽어야 한다. 아주 많은 코드를. 그리고 코드를 읽으면서 그 코드의 무엇이 옳은지, 그른지 생각도 해야 한다. 좀 더 중요하게는 전문가로서 자신이 지니는 가치와 장인으로서 자기 작품에 대한 헌신을 돌아보게 된다."
+          "img": "http://image.kyobobook.co.kr/images/book/xlarge/959/x9788966260959.jpg"
         },
         {
           "id": "5",
