@@ -15,7 +15,7 @@ const Section = styled.div`
 const GridContainer = styled.div`
   display: grid;
   width: 100%;
-  margin-top: 82px;
+  margin-top: 30px;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
@@ -24,6 +24,18 @@ const GridContainer = styled.div`
 
 const GridItem = styled.div`
   width: 100%;
+`;
+
+const CategoryContainer = styled.div`
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 4rem 0;
+  font-weight: 1000;
+  font-size: 4rem;
+  line-height: 2.2rem;
 `;
 
 function Category({ match }: any) {
@@ -49,6 +61,7 @@ function Category({ match }: any) {
 
   return (
     <div>
+      <CategoryContainer>{group}</CategoryContainer>
       <Section>
         <GridContainer>
           {bookList.map((el) => (
