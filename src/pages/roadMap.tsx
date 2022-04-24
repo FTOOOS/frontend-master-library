@@ -41,26 +41,21 @@ const IntroContainer = styled.div`
   flex-direction: column;
 `;
 
-const IntroHeader = styled.h1`
-  font-size: 20px;
-  line-height: 26px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #ffffff;
-  margin-top: 70px;
-`;
-
 const IntroImage = styled.img`
-  padding: 80px 0 150px 0;
+  padding: 80px 0 100px 0;
 `;
 
 const DownArrow = styled.span`
   background: url(${downArrow}) no-repeat center center / 100% 100%;
   width: 30px;
   height: 30px;
+  margin-top: 120px;
   cursor: pointer;
   z-index: 98;
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.05) translateY(-10px);
+  }
 `;
 
 function RoadMap() {
@@ -74,9 +69,6 @@ function RoadMap() {
   return (
     <>
       <IntroContainer>
-        <IntroHeader>
-          프론트엔드 개발자로 성장하고자 하는 사람들을 위한 <br/>"개발의 정석"
-        </IntroHeader>
         <IntroImage src={mainLogo} alt="소프트웨어 장인 로드맵" />
         <DownArrow onClick={handleDownArrowClick} />
       </IntroContainer>
