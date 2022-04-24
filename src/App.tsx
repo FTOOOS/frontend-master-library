@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import RoadMap from "./pages/roadMap";
 import Category from "./pages/category";
@@ -6,6 +6,7 @@ import Detail from "./pages/detail";
 import styled from "styled-components";
 import "reset-css";
 import { GlobalStyles } from "./styles";
+import initialize from "./api/initialize";
 
 const Header = styled.header`
   position: fixed;
@@ -24,6 +25,9 @@ const Header = styled.header`
 `;
 
 function App() {
+  useEffect(() => {
+    initialize();
+  }, []);
   return (
     <div>
       <Header>
