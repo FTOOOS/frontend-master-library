@@ -14,6 +14,7 @@ const Section = styled.div`
     width: 100%;
     margin: 82px 10px 10px 0;
   }
+  padding-bottom: 80px;
 `;
 
 const FlexWrapper = styled.div`
