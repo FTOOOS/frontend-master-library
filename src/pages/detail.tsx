@@ -67,6 +67,19 @@ const Author = styled.span``;
 
 const Publisher = styled.span``;
 
+const Suggestion = styled.p`
+  width: 100%;
+  margin: 3rem 0;
+  white-space: pre-wrap;
+
+  text-align: center;
+  color: #f0efef;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    margin: 2rem auto;
+  }
+`;
+
 const Summary = styled.p`
   width: 100%;
   margin: 1rem 0;
@@ -132,6 +145,7 @@ interface DetailProps {
   sharing: string;
   summary: string;
   yes24: string;
+  suggestion: string;
 }
 
 function Detail({ match }: any) {
@@ -149,6 +163,7 @@ function Detail({ match }: any) {
     sharing: "",
     summary: "",
     yes24: "",
+    suggestion: "",
   });
 
   useEffect(() => {
@@ -181,7 +196,7 @@ function Detail({ match }: any) {
             <HorizontalLine />
             <FlexWrapper className="links">
               <Links>
-                구매하기 링크
+                구매하기
                 <PurchaseLink
                   href={selectedBook.kyobo}
                   target="_blank"
@@ -198,7 +213,7 @@ function Detail({ match }: any) {
                 </PurchaseLink>
               </Links>
               <Links>
-                친구에게 공유하기
+                공유하기
                 <SharingBtn
                   onClick={(e) => {
                     e.preventDefault();
@@ -213,6 +228,9 @@ function Detail({ match }: any) {
             </FlexWrapper>
           </BookInfo>
         </FlexWrapper>
+        <Suggestion>"{selectedBook.suggestion[0]}"</Suggestion>
+        <Suggestion>"{selectedBook.suggestion[1]}"</Suggestion>
+        <HorizontalLine />
         <Summary>{selectedBook.summary}</Summary>
         <Utterances repo="FTOOOS/comment" theme="photon-dark" />
       </Section>
