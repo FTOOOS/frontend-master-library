@@ -78,51 +78,52 @@ function RoadMap() {
       <RoadMapImgContainer>
         <AnimationOnScroll animateIn="animate__fadeInLeftBig">
           <RoadMapImg
-            left="-240px"
-            top="calc(100vh + 80px)"
+            left="-200px"
+            top="calc(100vh + 90px)"
             names={htmlcss}
             category="htmlcss"
           />
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeInRightBig">
-          <RoadMapImg left="-80px" top="30px" names={git} category="git" />
+          <RoadMapImg left="-80px" top="25px" names={git} category="git" />
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeInLeftBig">
           <RoadMapImg
             left="150px"
-            top="30px"
+            top="15px"
             names={computerscience}
             category="computerscience"
           />
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeInRightBig">
           <RoadMapImg
-            left="0px"
-            top="30px"
+            left="40px"
+            top="35px"
             names={javascript}
             category="javascript"
           />
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+          <RoadMapImg left="-150px" top="35px" names={react} category="react" />
+        </AnimationOnScroll>
+        <AnimationOnScroll animateIn="animate__fadeInRightBig">
           <RoadMapImg
-            left="-160px"
+            left="-10px"
             top="30px"
             names={typescript}
             category="typescript"
           />
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__fadeInRightBig">
-          <RoadMapImg left="10px" top="30px" names={react} category="react" />
-        </AnimationOnScroll>
-        {/* <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+        <AnimationOnScroll animateIn="animate__fadeInLeftBig">
           <RoadMapImg
-            left="300px"
-            top="-30px"
+            left="240px"
+            top="0px"
             names={cooperation}
             category="cooperation"
           />
-        </AnimationOnScroll> */}
+        </AnimationOnScroll>
       </RoadMapImgContainer>
+      <div style={{ height: "150px" }} />
     </>
   );
 }

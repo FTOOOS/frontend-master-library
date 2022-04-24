@@ -14,7 +14,7 @@ const Section = styled.div`
 const GridContainer = styled.div`
   display: grid;
   width: 100%;
-  margin-bottom: 80px;
+  margin-bottom: 200px;
   grid-template-columns: 1fr 1fr 1fr;
   @media screen and (max-width: 900px) and (min-width: 570px) {
     grid-template-columns: 1fr 1fr;
