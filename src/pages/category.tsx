@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import styled from "styled-components";
+import Book from "../components/Book";
 
 const Section = styled.div`
   display: flex;
@@ -22,11 +23,7 @@ const GridContainer = styled.div`
 `;
 
 const GridItem = styled.div`
-  background-color: #54a0ff;
-  height: 20rem;
-  &:hover {
-    background-color: white;
-  }
+  width: 100%;
 `;
 
 function Category({ match }: any) {
@@ -56,7 +53,10 @@ function Category({ match }: any) {
         <GridContainer>
           {bookList.map((el) => (
             <Link key={el.id} to={`/detail/${chk}/${el.id}`}>
-              <GridItem key={el.id}>{el.bookTitle}</GridItem>
+              <GridItem key={el.id}>
+                {/* {el.bookTitle} */}
+                <Book />
+              </GridItem>
             </Link>
           ))}
         </GridContainer>
