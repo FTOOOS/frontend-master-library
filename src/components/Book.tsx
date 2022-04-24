@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import book1 from "../assets/bookcover/book.png";
+import book1 from "../assets/bookcover/book-removebg.png";
 
 const Book = () => {
   return (
@@ -21,7 +21,7 @@ const ImageContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 60px;
+  /* top: 60px; */
 `;
 
 const BookImageWrap = styled.div`
@@ -48,17 +48,20 @@ const BookImageWrap = styled.div`
 `;
 
 const BookImage = styled.div`
-  width: 100%;
-  max-width: 20px;
+  /* width: 100%; */
+  min-width: 200px;
   will-change: transform;
   transform-origin: 0 100%;
   transition: transform 0.3s ease-out;
+  @media screen and (min-width: 1000px) {
+    width: 20rem;
+  }
 
   &:hover {
     transform: rotate(-10deg);
   }
 
-  .img {
-    width: 100% !important;
+  img {
+    width: 100%;
   }
 `;

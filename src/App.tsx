@@ -1,20 +1,21 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React, { useEffect } from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import RoadMap from "./pages/roadMap";
 import Category from "./pages/category";
 import Detail from "./pages/detail";
 import styled from "styled-components";
 import "reset-css";
 import { GlobalStyles } from "./styles";
+import initialize from "./api/initialize";
+import logo from "./assets/logo.png";
 
 const Header = styled.header`
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 50px;
+  height: 30px;
   padding: 1rem;
-  color: white;
   background: #666;
   font-weight: bold;
   display: flex;
@@ -24,20 +25,23 @@ const Header = styled.header`
 `;
 
 function App() {
+  useEffect(() => {
+    initialize();
+  }, []);
   return (
-    <div>
+    <BrowserRouter>
       <Header>
-        <h1>프론트엔드 장인의 서재</h1>
+        <Link to={"/"} style={{ textDecoration: "none", color: "white" }}>
+          <img src={logo} alt="FTOOOS" style={{ height: "30px" }} />
+        </Link>
       </Header>
       <GlobalStyles />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<RoadMap />}></Route>
-          <Route path="/category/:group" element={<Category />}></Route>
-          <Route path="/detail/:group/:id" element={<Detail />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+      <Routes>
+        <Route path="/" element={<RoadMap/>}/>
+        <Route path="/category/:group" element={<Category/>}/>
+        <Route path="/detail/:group/:id" element={<Detail />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

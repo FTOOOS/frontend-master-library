@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
+import { shareKakao } from "../api/shareKakao";
 
 const Section = styled.div`
   width: 80%;
@@ -56,10 +57,7 @@ const PurchaseLink = styled.a`
   color: black;
 `;
 
-const SharingBtn = styled.a`
-  width: 20px;
-  height: 20px;
-`;
+const SharingBtn = styled.button``;
 
 interface DetailProps {
   id: string;
@@ -136,7 +134,17 @@ function Detail({ match }: any) {
                 yse24
               </PurchaseLink>
             </FlexWrapper>
-            <SharingBtn />
+            <SharingBtn
+              onClick={() => {
+                shareKakao(
+                  selectedBook.bookTitle,
+                  selectedBook.img,
+                  "http://localhost:3000/detail/javascript/1"
+                );
+              }}
+            >
+              카카오톡 공유하기
+            </SharingBtn>
           </BookInfo>
         </FlexWrapper>
       </Section>
