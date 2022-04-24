@@ -10,7 +10,7 @@ const Section = styled.div`
   width: 80%;
   height: 100%;
   margin: 100px auto 0;
-  @media screen and (max-width: 764px) {
+  @media screen and (max-width: 768px) {
     width: 100%;
     margin: 82px 10px 10px 0;
   }
@@ -72,7 +72,7 @@ const Summary = styled.p`
   margin: 1rem 0;
   white-space: pre-wrap;
   color: #f0efef;
-  @media screen and (max-width: 764px) {
+  @media screen and (max-width: 768px) {
     width: 90%;
     margin: 2rem auto;
   }
