@@ -10,51 +10,20 @@ const Section = styled.div`
   width: 80%;
   height: 100vh;
   margin: 100px auto 0;
-  /* background-color: #b2bec3; */
   @media screen and (max-width: 764px) {
     width: 100%;
+    margin: 82px 10px 10px 0;
   }
 `;
 
 const FlexWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-`;
-
-const CoverWrapper = styled.div`
-  width: 100%;
-  img { 
-    position: absolute;
-    top: 0; 
-    left: 0; 
-    max-width: 100%; 
-    height: auto; 
-    transform: translate(-50%,-50%); 
+  .links {
+    justify-content: space-between;
   }
-`
-
-const Thumbnail  = styled.div`
-  position: relative; 
-  padding-top: 100%; 
-  overflow: hidden;
-`
-
-const Center = styled.div`
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0;
-  transform: translate(50%,50%);
-`
-
-const Cover = styled.img`
-  width: 20rem;
-  height: 30rem;
-  margin-right: 1.5rem;
   @media screen and (max-width: 764px) {
-    width: 10rem;
-    height: 20rem;
+    flex-direction: column;
   }
 `;
 
@@ -92,7 +61,7 @@ const VerticalLine = styled.em`
   vertical-align: top;
   display: inline-block;
   zoom: 1;
-`
+`;
 
 const Author = styled.span``;
 
@@ -103,23 +72,35 @@ const Summary = styled.p`
   margin: 1rem 0;
   white-space: pre-wrap;
   color: #f0efef;
+  @media screen and (max-width: 764px) {
+    width: 90%;
+    margin: 0 auto;
+  }
+`;
+
+const Links = styled.div`
+  display: flex;
+  line-height: 50px;
+  vertical-align: center;
+  margin-top: 20px;
 `;
 
 const PurchaseLink = styled.a`
   display: block;
   width: 100px;
   height: 50px;
-  line-height: 30px;
+  margin-left: 20px;
+  line-height: 50px;
   text-align: center;
   text-decoration: none;
   color: black;
-  background: #ECECEC;
+  background: #ececec;
   border-radius: 10px;
   cursor: pointer;
-  
- & + & {
-   margin-left: 20px;
- }
+
+  & + & {
+    margin-left: 20px;
+  }
 `;
 
 const SharingBtn = styled.a`
@@ -127,7 +108,8 @@ const SharingBtn = styled.a`
   width: 56px;
   position: relative;
   display: block;
-  
+  margin-left: 20px;
+
   &:after {
     background: url(${kakaoIcon}) no-repeat 0 0;
     position: absolute;
@@ -135,7 +117,7 @@ const SharingBtn = styled.a`
     height: 56px;
     transform: translateX(-50%);
     content: "";
-    left: 50%;  
+    left: 50%;
   }
 `;
 
@@ -189,59 +171,46 @@ function Detail({ match }: any) {
     <>
       <Section>
         <FlexWrapper>
-          <DetailBook src={selectedBook.img}/>
+          <DetailBook src={selectedBook.img} />
           <BookInfo>
             <Title>{selectedBook.bookTitle}</Title>
             <SubTitle>{selectedBook.bookSubTitle}</SubTitle>
-              <Author>{selectedBook.author}</Author>
-              <VerticalLine>|</VerticalLine>
-              <Publisher>{selectedBook.publisher}</Publisher>
-            <HorizontalLine/>
-            <table>
-              <colgroup>
-                <col width="110"/>
-                <col width="*"/>
-              </colgroup>
-              <tbody>
-                <tr>
-                  <th scope="row">구매링크 바로가기</th>
-                  <td>
-                    <FlexWrapper>
-                      <PurchaseLink
-                        href={selectedBook.kyobo}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        교보문고
-                      </PurchaseLink>
-                      <PurchaseLink
-                        href={selectedBook.yes24}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        yse24
-                      </PurchaseLink>
-                    </FlexWrapper>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">링크 공유하기</th>
-                  <td>
-                    <SharingBtn
-                      onClick={(e) => {
-                        e.preventDefault();
-                        shareKakao(
-                          selectedBook.bookTitle,
-                          selectedBook.img,
-                          window.location.href
-                        );
-                      }}
-                    >
-                    </SharingBtn>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <Author>{selectedBook.author}</Author>
+            <VerticalLine>|</VerticalLine>
+            <Publisher>{selectedBook.publisher}</Publisher>
+            <HorizontalLine />
+            <FlexWrapper className="links">
+              <Links>
+                구매하기 링크
+                <PurchaseLink
+                  href={selectedBook.kyobo}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  교보문고
+                </PurchaseLink>
+                <PurchaseLink
+                  href={selectedBook.yes24}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  yse24
+                </PurchaseLink>
+              </Links>
+              <Links>
+                친구에게 공유하기
+                <SharingBtn
+                  onClick={(e) => {
+                    e.preventDefault();
+                    shareKakao(
+                      selectedBook.bookTitle,
+                      selectedBook.img,
+                      window.location.href
+                    );
+                  }}
+                ></SharingBtn>
+              </Links>
+            </FlexWrapper>
           </BookInfo>
         </FlexWrapper>
         <Summary>{selectedBook.summary}</Summary>

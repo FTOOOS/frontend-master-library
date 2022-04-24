@@ -54,7 +54,6 @@ function Category({ match }: any) {
           {bookList.map((el) => (
             <Link key={el.id} to={`/detail/${chk}/${el.id}`}>
               <GridItem key={el.id}>
-                {/* {el.bookTitle} */}
                 <Book />
               </GridItem>
             </Link>
