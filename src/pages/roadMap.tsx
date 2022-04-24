@@ -43,9 +43,6 @@ const IntroContainer = styled.div`
 `;
 
 const IntroHeader = styled.h1`
-  font-family: "NanumGothicCoding";
-  font-style: normal;
-  font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   display: flex;
@@ -79,9 +76,7 @@ function RoadMap() {
     <>
       <IntroContainer>
         <IntroHeader>
-          소프트웨어 장인의 서재
-          <br />
-          -프론트엔드 개발자 편-
+          프론트엔드 개발자로 성장하고자 하는 사람들을 위한 <br/>"개발의 정석"
         </IntroHeader>
         <IntroImage src={mainLogo} alt="소프트웨어 장인 로드맵" />
         <DownArrow onClick={handleDownArrowClick} />
