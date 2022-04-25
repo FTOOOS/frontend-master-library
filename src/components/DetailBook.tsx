@@ -8,6 +8,9 @@ const BookCoverContainer = styled.div`
   margin-top: 30px;
   width: 100%;
   height: 22rem;
+  @media screen and (min-width: 1024px) {
+    width: 50%;
+  }
 `;
 
 export const DetailBook = ({ src }) => {
