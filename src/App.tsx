@@ -9,7 +9,6 @@ import "reset-css";
 import initialize from "./api/initialize";
 import logo from "./assets/logo.png";
 import Footer from "./components/Footer";
-import ReactGA from 'react-ga';
 
 const Header = styled.header`
   position: fixed;
@@ -34,9 +33,6 @@ const LogoText = styled.span`
 function App() {
   useEffect(() => {
     initialize();
-    ReactGA.initialize('G-TQTC88ZTKT');
-    ReactGA.set({ page: window.location.pathname });
-    ReactGA.pageview(window.location.pathname);
   }, []);
 
   return (

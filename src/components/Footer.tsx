@@ -33,6 +33,10 @@ function Footer() {
   const location = useLocation();
 
   useEffect(() => {
+    ReactGA.initialize('G-TQTC88ZTKT');
+  }, []);
+
+  useEffect(() => {
     ReactGA.set({ page: location.pathname });
     ReactGA.pageview(location.pathname);
   }, [location.pathname]);
