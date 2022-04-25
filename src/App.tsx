@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import {BrowserRouter, Routes, Route, Link, Navigate} from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, Navigate } from "react-router-dom";
 import RoadMap from "./pages/roadMap";
 import Category from "./pages/category";
 import Detail from "./pages/detail";
@@ -16,7 +16,7 @@ const Header = styled.header`
   height: 30px;
   width: 100%;
   padding: 1rem;
-  background: #666;
+  background: #222;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
