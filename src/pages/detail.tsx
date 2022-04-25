@@ -31,12 +31,19 @@ const FlexWrapper = styled.div`
 
 const BookInfo = styled.div`
   color: #f0efef;
-  position: relative
-  left: 10px;
+  position: relative;
   margin: 0px auto;
   margin-top: 70px;
   width: 80%;
   max-width: 600px;
+  @media screen and (min-width: 1024px) {
+    left: -8%;
+    width: 45%;
+  }
+  @media screen and (min-width: 1300px) {
+    left: -13%;
+    width: 40%;
+  }
 `;
 
 const Title = styled.h1`
@@ -49,6 +56,7 @@ const SubTitle = styled.h2`
   font-size: 1.2rem;
   line-height: 1.3rem;
   margin: 1rem 0;
+  word-break: keep-all;
 `;
 
 const HorizontalLine = styled.hr`
