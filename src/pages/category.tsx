@@ -38,6 +38,9 @@ const CategoryContainer = styled.div`
   margin: 4rem 0;
   font-weight: 1000;
   font-size: 4rem;
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
   line-height: 2.2rem;
 `;
 
