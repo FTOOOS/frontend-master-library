@@ -44,14 +44,14 @@ const IntroContainer = styled.div`
 
 const IntroImage = styled.img`
   padding: 0 0 80px 0;
-  margin-top: 80px;
+  margin-top: 50px;
 `;
 
 const IntroText = styled.div`
   margin: 0 auto;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   width: 95%;
 `;
 
@@ -67,7 +67,7 @@ const DownArrow = styled.span`
   background: url(${downArrow}) no-repeat center center / 100% 100%;
   width: 30px;
   height: 30px;
-  margin-top: 25px;
+  margin-top: 35px;
   cursor: pointer;
   z-index: 98;
   transition: transform 0.2s ease-in-out;
@@ -98,11 +98,10 @@ function RoadMap() {
           서재"
         </IntroText>
         <IntroSubText>
-          기능 구현 중 모르는 지식이 나오면 유명 저자들의 책을 참고하며
-          학습하는 것은 기초를 탄탄하게 하는 지름길입니다. 그래서 프투스 교육
-          팀원들이 엄선한 책들만 모아 서재를 준비했습니다! FE 개발자들에게 꼭
-          추천하고 싶은 책들만 모았어요. 로드맵을 따라 함께 성장해봅시다 👍🏻
-          <br />
+          기능 구현 중 모르는 지식이 나오면 유명 저자들의 책을 참고하며 학습하는
+          것은 기초를 탄탄하게 하는 지름길입니다. 그래서 프투스 교육 팀원들이
+          엄선한 책들만 모아 서재를 준비했습니다! FE 개발자들에게 꼭 추천하고
+          싶은 책들만 모았어요. 로드맵을 따라 함께 성장해봅시다 👍🏻
         </IntroSubText>
         <DownArrow onClick={handleDownArrowClick} />
       </IntroContainer>
