@@ -12,6 +12,7 @@ import computerscience from "../assets/computerscience.svg";
 import mainLogo from "../assets/main-logo.png";
 import downArrow from "../assets/down-arrow.svg";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import ReactGA from "react-ga";
 
 const RoadMapWrapper = styled.div`
   display: flex;
@@ -63,6 +64,11 @@ function RoadMap() {
     window.scrollTo({
       top: window.innerHeight,
       behavior: "smooth",
+    });
+    ReactGA.event({
+      category: "Button",
+      action: "scroll down arrow click",
+      label: "scroll",
     });
   };
 

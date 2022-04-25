@@ -5,6 +5,7 @@ import { DetailBook } from "../components/DetailBook";
 import { shareKakao } from "../api/shareKakao";
 import kakaoIcon from "../assets/ico_sns_kakao.svg";
 import Utterances from "../api/utterances";
+import ReactGA from "react-ga";
 
 const Section = styled.div`
   width: 80%;
@@ -221,6 +222,11 @@ function Detail({ match }: any) {
                       selectedBook.img,
                       window.location.href
                     );
+                    ReactGA.event({
+                      category: "Button",
+                      action: "share kakao button",
+                      label: "share",
+                    });
                   }}
                 ></SharingBtn>
               </Links>

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
+import ReactGA from "react-ga";
 
 const ImgWrapper = styled.span<RoadMapImgTypes>`
   margin-left: ${(props) => props.left};
@@ -26,6 +27,11 @@ const RoadMapImg = (props) => {
   const navigate = useNavigate();
 
   const handleClick = (category: string) => {
+    ReactGA.event({
+      category: "Button",
+      action: "go to category page",
+      label: "navigate",
+    });
     const path = `/category/${category}`;
     navigate(path);
   };

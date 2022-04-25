@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BrowserRouter, Routes, Route, Link, Navigate } from "react-router-dom";
+import {BrowserRouter, Routes, Route, Link, Navigate, useLocation} from "react-router-dom";
 import RoadMap from "./pages/roadMap";
 import Category from "./pages/category";
 import Detail from "./pages/detail";
@@ -9,6 +9,7 @@ import "reset-css";
 import initialize from "./api/initialize";
 import logo from "./assets/logo.png";
 import Footer from "./components/Footer";
+import ReactGA from 'react-ga';
 
 const Header = styled.header`
   position: fixed;
@@ -31,9 +32,18 @@ const LogoText = styled.span`
 `;
 
 function App() {
+  const location = useLocation();
+
   useEffect(() => {
     initialize();
+    ReactGA.initialize('G-VPMB8976VX');
   }, []);
+
+  useEffect(() => {
+    ReactGA.set({ page: location.pathname });
+    ReactGA.pageview(location.pathname);
+  }, [location]);
+
   return (
     <BrowserRouter>
       <Header>
