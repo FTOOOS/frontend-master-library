@@ -118,13 +118,15 @@ const PurchaseLink = styled.a`
   background: #ececec;
   border-radius: 30px;
   cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
 
   & + & {
     margin-left: 1rem;
   }
   transition: transform 0.2s ease-in-out;
   &:hover {
-    transform: scale(1.05) translateY(-10px);
+    transform: scale(1.05) translateY(-3px);
   }
 `;
 
@@ -142,7 +144,7 @@ const SharingBtn = styled.a`
   }
   transition: transform 0.2s ease-in-out;
   &:hover {
-    transform: scale(1.05) translateY(-10px);
+    transform: scale(1.05) translateY(-3px);
   }
 `;
 
@@ -220,7 +222,7 @@ function Detail({ match }: any) {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  yes24
+                  YES24
                 </PurchaseLink>
                 <SharingBtn
                   onClick={(e) => {
