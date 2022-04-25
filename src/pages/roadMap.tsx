@@ -35,6 +35,7 @@ const RoadMapImgContainer = styled.div`
 `;
 
 const IntroContainer = styled.div`
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,10 +103,6 @@ function RoadMap() {
           떨어지는 정보들에 휩쓸리다 보면 어느 한가지에 딥 다이브 하지못해
           학습의 방향성을 잃고 이론적인 지식에 빈틈이 생길 수 있습니다.
           <br />
-          <br /> 기능 구현 중 모르는 지식이 나오면 유명 저자들의 책을 참고하며
-          학습하는 것은 기초를 탄탄하게 하는 지름길입니다. 그래서 프투스 교육
-          팀원들이 엄선한 책들만 모아 서재를 준비했습니다! FE 개발자들에게 꼭
-          추천하고 싶은 책들만 모았어요. 로드맵을 따라 함께 성장해봅시다 👍🏻
         </IntroSubText>
         <DownArrow onClick={handleDownArrowClick} />
       </IntroContainer>
