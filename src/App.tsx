@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 const Header = styled.header`
   position: fixed;
   top: 0;
-  height: 30px;
+  height: 26px;
   width: 100%;
   padding: 1rem;
   background: #222;
@@ -22,6 +22,7 @@ const Header = styled.header`
   justify-content: space-between;
   align-items: center;
   z-index: 99;
+  opacity: 0.95;
 `;
 
 const LogoText = styled.span`
