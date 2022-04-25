@@ -43,14 +43,31 @@ const IntroContainer = styled.div`
 `;
 
 const IntroImage = styled.img`
-  padding: 80px 0 100px 0;
+  padding: 0 0 80px 0;
+  margin-top: 80px;
+`;
+
+const IntroText = styled.div`
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  width: 95%;
+`;
+
+const IntroSubText = styled.div`
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  max-width: 700px;
+  width: 90%;
 `;
 
 const DownArrow = styled.span`
   background: url(${downArrow}) no-repeat center center / 100% 100%;
   width: 30px;
   height: 30px;
-  margin-top: 120px;
+  margin-top: 25px;
   cursor: pointer;
   z-index: 98;
   transition: transform 0.2s ease-in-out;
@@ -76,6 +93,21 @@ function RoadMap() {
     <>
       <IntroContainer>
         <IntroImage src={mainLogo} alt="소프트웨어 장인 로드맵" />
+        <IntroText>
+          프론트엔드 개발자로 성장하고자 하는 사람들을 위한 "프론트엔드 장인의
+          서재"
+        </IntroText>
+        <IntroSubText>
+          끊임없이 쏟아지는 FE 개발 트렌드와 포스팅들의 홍수 속에서 정신이
+          혼미해질 때가 있지 않나요? 🤔 <br /> 휘발성이 강하거나 신뢰도가
+          떨어지는 정보들에 휩쓸리다 보면 어느 한가지에 딥 다이브 하지못해
+          학습의 방향성을 잃고 이론적인 지식에 빈틈이 생길 수 있습니다.
+          <br />
+          <br /> 기능 구현 중 모르는 지식이 나오면 유명 저자들의 책을 참고하며
+          학습하는 것은 기초를 탄탄하게 하는 지름길입니다. 그래서 프투스 교육
+          팀원들이 엄선한 책들만 모아 서재를 준비했습니다! FE 개발자들에게 꼭
+          추천하고 싶은 책들만 모았어요. 로드맵을 따라 함께 성장해봅시다 👍🏻
+        </IntroSubText>
         <DownArrow onClick={handleDownArrowClick} />
       </IntroContainer>
       <RoadMapWrapper>
