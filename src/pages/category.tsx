@@ -47,6 +47,7 @@ const CategoryContainer = styled.div`
 const Desc = styled.span`
   display: flex;
   justify-content: center;
+  text-align: center;
 `;
 
 function Category({ match }: any) {
