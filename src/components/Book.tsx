@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import book1 from "../assets/bookcover/book-removebg.png";
+import book1 from "../assets/bookcover/1-1.png";
 
 const Book = () => {
   return (
