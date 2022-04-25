@@ -31,7 +31,8 @@
 - `book-cover-3d` 라이브러리를 통한 3D 애니메이션 구현
 - `utterances`를 사용한 Github 계정 기반 코멘트 기능
 - `카카오링크 API` 기반 도서 공유 기능
-- Mock data 구조화 및 auto rendering 처리
+- `react-ga`를 통한 Google Analytics 연동
+- mock data 구조화 및 auto rendering 처리
 - 반응형 레이아웃 구현
 
 

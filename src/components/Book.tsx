@@ -1,13 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import book1 from "../assets/bookcover/1-1.png";
 
-const Book = () => {
+const Book = ({ src }) => {
   return (
     <ImageContainer>
       <BookImageWrap>
         <BookImage>
-          <img src={book1} alt="book" />
+          <img src={src} alt="book" />
         </BookImage>
       </BookImageWrap>
     </ImageContainer>
