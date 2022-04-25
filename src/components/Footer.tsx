@@ -1,8 +1,8 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import github from "../assets/github.svg";
 import ReactGA from "react-ga";
-import {useLocation, useNavigationType} from "react-router-dom";
+import { useLocation, useNavigationType } from "react-router-dom";
 
 const FooterContainer = styled.div`
   display: flex;
@@ -12,13 +12,14 @@ const FooterContainer = styled.div`
   width: 100%;
   bottom: 0;
   height: 50px;
-  background: #666;
+  background: #222;
 `;
 
 const FooterText = styled.span`
   text-align: right;
   color: white;
   font-size: 12px;
+  margin-right: 10px;
 `;
 
 const GitHubWrapper = styled.div`
@@ -27,6 +28,8 @@ const GitHubWrapper = styled.div`
   display: inline-block;
   background: url(${github}) no-repeat center center / 100% 100%;
   cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 5px;
 `;
 
 function Footer() {
@@ -34,13 +37,13 @@ function Footer() {
   const navigationType = useNavigationType();
 
   useEffect(() => {
-    ReactGA.initialize('G-TQTC88ZTKT');
+    ReactGA.initialize("G-TQTC88ZTKT");
   }, []);
 
   useEffect(() => {
     ReactGA.set({ page: location.pathname });
     ReactGA.pageview(location.pathname);
-    navigationType === 'PUSH' && window.scrollTo(0, 0);
+    navigationType === "PUSH" && window.scrollTo(0, 0);
   }, [location.pathname]);
 
   return (
