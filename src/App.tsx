@@ -36,7 +36,7 @@ function App() {
 
   useEffect(() => {
     initialize();
-    ReactGA.initialize('G-VPMB8976VX');
+    ReactGA.initialize('G-TQTC88ZTKT');
   }, []);
 
   useEffect(() => {
