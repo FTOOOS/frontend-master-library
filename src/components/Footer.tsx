@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import styled from "styled-components";
 import github from "../assets/github.svg";
 import ReactGA from "react-ga";
-import {useLocation} from "react-router-dom";
+import {useLocation, useNavigationType} from "react-router-dom";
 
 const FooterContainer = styled.div`
   display: flex;
@@ -31,6 +31,7 @@ const GitHubWrapper = styled.div`
 
 function Footer() {
   const location = useLocation();
+  const navigationType = useNavigationType();
 
   useEffect(() => {
     ReactGA.initialize('G-TQTC88ZTKT');
@@ -39,6 +40,7 @@ function Footer() {
   useEffect(() => {
     ReactGA.set({ page: location.pathname });
     ReactGA.pageview(location.pathname);
+    navigationType === 'PUSH' && window.scrollTo(0, 0);
   }, [location.pathname]);
 
   return (
