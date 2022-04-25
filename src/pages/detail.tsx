@@ -33,7 +33,8 @@ const BookInfo = styled.div`
   color: #f0efef;
   position: relative
   left: 10px;
-  margin: 0 auto;
+  margin: 0px auto;
+  margin-top: 70px;
   width: 80%;
   max-width: 600px;
 `;
@@ -121,20 +122,27 @@ const PurchaseLink = styled.a`
   & + & {
     margin-left: 1rem;
   }
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.05) translateY(-10px);
+  }
 `;
 
 const SharingBtn = styled.a`
   cursor: pointer;
   width: 56px;
   display: block;
-  margin-left: 3rem;
+  margin-left: 2rem;
   &:after {
     background: url(${kakaoIcon}) no-repeat 0 0;
     position: absolute;
     width: 56px;
     height: 56px;
-    transform: translateX(-50%);
     content: "";
+  }
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.05) translateY(-10px);
   }
 `;
 
