@@ -1,6 +1,8 @@
-import React from "react";
+import React, {useEffect} from "react";
 import styled from "styled-components";
 import github from "../assets/github.svg";
+import ReactGA from "react-ga";
+import {useLocation} from "react-router-dom";
 
 const FooterContainer = styled.div`
   display: flex;
@@ -28,6 +30,13 @@ const GitHubWrapper = styled.div`
 `;
 
 function Footer() {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.set({ page: location.pathname });
+    ReactGA.pageview(location.pathname);
+  }, [location.pathname]);
+
   return (
     <FooterContainer>
       <FooterText>

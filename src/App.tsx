@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import {BrowserRouter, Routes, Route, Link, Navigate, useLocation} from "react-router-dom";
+import {BrowserRouter, Routes, Route, Link, Navigate} from "react-router-dom";
 import RoadMap from "./pages/roadMap";
 import Category from "./pages/category";
 import Detail from "./pages/detail";
@@ -32,17 +32,12 @@ const LogoText = styled.span`
 `;
 
 function App() {
-  const location = useLocation();
-
   useEffect(() => {
     initialize();
     ReactGA.initialize('G-TQTC88ZTKT');
+    ReactGA.set({ page: window.location.pathname });
+    ReactGA.pageview(window.location.pathname);
   }, []);
-
-  useEffect(() => {
-    ReactGA.set({ page: location.pathname });
-    ReactGA.pageview(location.pathname);
-  }, [location]);
 
   return (
     <BrowserRouter>
