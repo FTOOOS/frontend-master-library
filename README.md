@@ -35,10 +35,6 @@
 - mock data 구조화 및 auto rendering 처리
 - 반응형 레이아웃 구현
 
-|                      **프론트엔드 로드맵**                       |                        **책 3D 애니메이션**                         |                     **코멘트 남기기**                      |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|  <img height='600' src='https://user-images.githubusercontent.com/61545957/165085922-1755eb29-fa27-4cd7-a2e5-51678938e97d.png'>| <img height='600' src='https://user-images.githubusercontent.com/61545957/165085965-73177768-9159-4b97-bc1c-99a182dc8d0e.png'>| <img height='600' src='https://user-images.githubusercontent.com/61545957/165086541-6e5fc65d-e2e5-40d6-b407-69e47e9c41de.png'>|
-
 
 ## Stacks
 - React
