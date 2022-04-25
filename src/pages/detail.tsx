@@ -29,26 +29,30 @@ const FlexWrapper = styled.div`
 `;
 
 const BookInfo = styled.div`
-  width: 90%;
   color: #f0efef;
+  position: relative
+  left: 10px;
   margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
 `;
 
 const Title = styled.h1`
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 2.2rem;
 `;
 
 const SubTitle = styled.h2`
   font-size: 1.2rem;
-  line-height: 1.5rem;
+  line-height: 1.3rem;
   margin: 1rem 0;
 `;
 
 const HorizontalLine = styled.hr`
   border-top: 0;
   border-bottom: solid 1px #d8d8d8;
+  max-width: 750px;
 `;
 
 const VerticalLine = styled.em`
@@ -61,7 +65,7 @@ const VerticalLine = styled.em`
   text-align: left;
   vertical-align: top;
   display: inline-block;
-  zoom: 1;
+  zoom: 1.4;
 `;
 
 const Author = styled.span``;
@@ -69,10 +73,9 @@ const Author = styled.span``;
 const Publisher = styled.span``;
 
 const Suggestion = styled.p`
-  width: 100%;
-  margin: 3rem 0;
+  width: 70%;
+  margin: 3rem auto;
   white-space: pre-wrap;
-
   text-align: center;
   color: #f0efef;
   @media screen and (max-width: 768px) {
@@ -83,13 +86,15 @@ const Suggestion = styled.p`
 
 const Summary = styled.p`
   width: 100%;
-  margin: 1rem 0;
+  margin: 1rem auto;
   white-space: pre-wrap;
   color: #f0efef;
   @media screen and (max-width: 768px) {
     width: 90%;
     margin: 2rem auto;
   }
+  max-width: 750px;
+  margin-bottom: 30px;
 `;
 
 const Links = styled.div`
@@ -102,14 +107,14 @@ const Links = styled.div`
 const PurchaseLink = styled.a`
   display: block;
   width: 100px;
-  height: 50px;
+  height: 55px;
   margin-left: 1rem;
-  line-height: 50px;
+  line-height: 55px;
   text-align: center;
   text-decoration: none;
   color: black;
   background: #ececec;
-  border-radius: 10px;
+  border-radius: 30px;
   cursor: pointer;
 
   & + & {
@@ -120,10 +125,8 @@ const PurchaseLink = styled.a`
 const SharingBtn = styled.a`
   cursor: pointer;
   width: 56px;
-  position: relative;
   display: block;
-  margin-left: 1rem;
-
+  margin-left: 3rem;
   &:after {
     background: url(${kakaoIcon}) no-repeat 0 0;
     position: absolute;
@@ -131,7 +134,6 @@ const SharingBtn = styled.a`
     height: 56px;
     transform: translateX(-50%);
     content: "";
-    left: 50%;
   }
 `;
 
@@ -197,7 +199,6 @@ function Detail({ match }: any) {
             <HorizontalLine />
             <FlexWrapper className="links">
               <Links>
-                구매하기
                 <PurchaseLink
                   href={selectedBook.kyobo}
                   target="_blank"
@@ -210,11 +211,8 @@ function Detail({ match }: any) {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  yse24
+                  yes24
                 </PurchaseLink>
-              </Links>
-              <Links>
-                공유하기
                 <SharingBtn
                   onClick={(e) => {
                     e.preventDefault();
