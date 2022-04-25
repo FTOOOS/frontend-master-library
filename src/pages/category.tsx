@@ -44,9 +44,15 @@ const CategoryContainer = styled.div`
   line-height: 2.2rem;
 `;
 
+const Desc = styled.span`
+  display: flex;
+  justify-content: center;
+`;
+
 function Category({ match }: any) {
   const { group } = useParams();
   const [bookList, setBookList] = useState([]);
+  const [describe, setDescribe] = useState();
   const [chk, setChk] = useState("");
 
   useEffect(() => {
@@ -59,6 +65,7 @@ function Category({ match }: any) {
         for (let i = 0; i < length; i++) {
           if (group === entire[i]["group"]) {
             setBookList(entire[i].bookList);
+            setDescribe(entire[i].desc);
             setChk(entire[i].group);
           }
         }
@@ -68,6 +75,7 @@ function Category({ match }: any) {
   return (
     <div>
       <CategoryContainer>{group}</CategoryContainer>
+      <Desc>{describe}</Desc>
       <Section>
         <GridContainer>
           {bookList.map((el) => (
