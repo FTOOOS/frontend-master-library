@@ -73,7 +73,13 @@ function Category({ match }: any) {
           {bookList.map((el) => (
             <Link key={el.id} to={`/detail/${chk}/${el.id}`}>
               <GridItem key={el.id}>
-                <Book />
+                <Book
+                  src={require("../assets/bookcover/" +
+                    `${group}` +
+                    "/" +
+                    `${el.id}` +
+                    ".png")}
+                />
               </GridItem>
             </Link>
           ))}
